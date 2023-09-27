@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "HealthGuru": {
+      "commandName": "Project"
+    },
+    "Profile 1": {
+      "commandName": "Project",
+      "authenticationMode": "None"
+    }
+  }
+}
