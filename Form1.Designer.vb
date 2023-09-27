@@ -42,7 +42,7 @@ Partial Class Form1
         ' 
         PictureBox1.Anchor = AnchorStyles.None
         PictureBox1.BackColor = Color.Transparent
-        PictureBox1.Image = My.Resources.Resources.download_removebg_preview1
+        PictureBox1.Image = My.Resources.Resources.download_removebg_preview
         PictureBox1.Location = New Point(552, 56)
         PictureBox1.Name = "PictureBox1"
         PictureBox1.Size = New Size(233, 206)
