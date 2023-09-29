@@ -36,6 +36,7 @@ Partial Class Form1
         ' 
         ' PictureBox1
         ' 
+        PictureBox1.Anchor = AnchorStyles.None
         PictureBox1.Image = My.Resources.Resources.circle
         PictureBox1.Location = New Point(805, -158)
         PictureBox1.Name = "PictureBox1"
@@ -46,6 +47,7 @@ Partial Class Form1
         ' 
         ' PictureBox2
         ' 
+        PictureBox2.Anchor = AnchorStyles.None
         PictureBox2.Image = My.Resources.Resources.circle
         PictureBox2.Location = New Point(-42, 456)
         PictureBox2.Name = "PictureBox2"
@@ -56,6 +58,7 @@ Partial Class Form1
         ' 
         ' PictureBox5
         ' 
+        PictureBox5.Anchor = AnchorStyles.None
         PictureBox5.BackColor = Color.Transparent
         PictureBox5.Image = My.Resources.Resources.logo
         PictureBox5.Location = New Point(402, -101)
@@ -67,6 +70,7 @@ Partial Class Form1
         ' 
         ' Guna2GradientPanel1
         ' 
+        Guna2GradientPanel1.Anchor = AnchorStyles.None
         Guna2GradientPanel1.BackColor = Color.FromArgb(CByte(103), CByte(190), CByte(119))
         Guna2GradientPanel1.CustomizableEdges = CustomizableEdges1
         Guna2GradientPanel1.FillColor = Color.FromArgb(CByte(190), CByte(240), CByte(150))
