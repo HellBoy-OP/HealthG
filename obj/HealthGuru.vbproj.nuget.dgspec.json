@@ -48,18 +48,6 @@
               "target": "Package",
               "version": "[7.0.0, )"
             },
-            "MongoDB.Bson": {
-              "target": "Package",
-              "version": "[2.21.0, )"
-            },
-            "MongoDB.Driver": {
-              "target": "Package",
-              "version": "[2.21.0, )"
-            },
-            "MongoDB.Driver.Core": {
-              "target": "Package",
-              "version": "[2.21.0, )"
-            },
             "MySql.Data": {
               "target": "Package",
               "version": "[8.1.0, )"
