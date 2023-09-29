@@ -157,3 +157,5 @@ C:\Users\User\Desktop\VisualStudioProjects\HealthGuru\bin\Debug\net7.0-windows\G
 C:\Users\User\Desktop\VisualStudioProjects\HealthGuru\bin\Debug\net7.0-windows\System.Management.dll
 C:\Users\User\Desktop\VisualStudioProjects\HealthGuru\bin\Debug\net7.0-windows\runtimes\win\lib\net7.0\System.Management.dll
 C:\Users\User\Desktop\VisualStudioProjects\HealthGuru\obj\Debug\net7.0-windows\HealthGuru.Dashboard.resources
+C:\Users\User\Desktop\VisualStudioProjects\HealthGuru\obj\Debug\net7.0-windows\HealthGuru.Login.resources
+C:\Users\User\Desktop\VisualStudioProjects\HealthGuru\obj\Debug\net7.0-windows\HealthGuru.Register.resources
