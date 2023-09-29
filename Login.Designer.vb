@@ -81,7 +81,7 @@ Partial Class Login
         LinkLabel1.AutoSize = True
         LinkLabel1.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
         LinkLabel1.LinkColor = Color.White
-        LinkLabel1.Location = New Point(201, 302)
+        LinkLabel1.Location = New Point(220, 302)
         LinkLabel1.Name = "LinkLabel1"
         LinkLabel1.Size = New Size(130, 20)
         LinkLabel1.TabIndex = 7
@@ -99,7 +99,7 @@ Partial Class Login
         Guna2CheckBox1.Cursor = Cursors.Hand
         Guna2CheckBox1.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
         Guna2CheckBox1.ForeColor = Color.White
-        Guna2CheckBox1.Location = New Point(19, 302)
+        Guna2CheckBox1.Location = New Point(14, 302)
         Guna2CheckBox1.Name = "Guna2CheckBox1"
         Guna2CheckBox1.Size = New Size(136, 24)
         Guna2CheckBox1.TabIndex = 6
@@ -124,7 +124,7 @@ Partial Class Login
         Guna2Button3.FillColor = Color.Transparent
         Guna2Button3.Font = New Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point)
         Guna2Button3.ForeColor = Color.White
-        Guna2Button3.Location = New Point(112, 373)
+        Guna2Button3.Location = New Point(112, 372)
         Guna2Button3.Name = "Guna2Button3"
         Guna2Button3.ShadowDecoration.CustomizableEdges = CustomizableEdges2
         Guna2Button3.Size = New Size(126, 39)
@@ -193,9 +193,9 @@ Partial Class Login
         ' PictureBox4
         ' 
         PictureBox4.Image = My.Resources.Resources.pass
-        PictureBox4.Location = New Point(19, 114)
+        PictureBox4.Location = New Point(11, 110)
         PictureBox4.Name = "PictureBox4"
-        PictureBox4.Size = New Size(55, 50)
+        PictureBox4.Size = New Size(49, 49)
         PictureBox4.SizeMode = PictureBoxSizeMode.StretchImage
         PictureBox4.TabIndex = 3
         PictureBox4.TabStop = False
@@ -204,7 +204,7 @@ Partial Class Login
         ' 
         Guna2TextBox2.Animated = True
         Guna2TextBox2.AutoRoundedCorners = True
-        Guna2TextBox2.BorderRadius = 27
+        Guna2TextBox2.BorderRadius = 24
         Guna2TextBox2.CustomizableEdges = CustomizableEdges7
         Guna2TextBox2.DefaultText = ""
         Guna2TextBox2.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
@@ -214,23 +214,23 @@ Partial Class Login
         Guna2TextBox2.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         Guna2TextBox2.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2TextBox2.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox2.Location = New Point(81, 110)
+        Guna2TextBox2.Location = New Point(69, 110)
         Guna2TextBox2.Margin = New Padding(3, 4, 3, 4)
         Guna2TextBox2.Name = "Guna2TextBox2"
         Guna2TextBox2.PasswordChar = ChrW(0)
         Guna2TextBox2.PlaceholderText = "Password"
         Guna2TextBox2.SelectedText = ""
         Guna2TextBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges8
-        Guna2TextBox2.Size = New Size(262, 56)
+        Guna2TextBox2.Size = New Size(280, 50)
         Guna2TextBox2.TabIndex = 2
         Guna2TextBox2.TextAlign = HorizontalAlignment.Center
         ' 
         ' PictureBox3
         ' 
         PictureBox3.Image = My.Resources.Resources.userr
-        PictureBox3.Location = New Point(19, 25)
+        PictureBox3.Location = New Point(12, 22)
         PictureBox3.Name = "PictureBox3"
-        PictureBox3.Size = New Size(55, 50)
+        PictureBox3.Size = New Size(49, 49)
         PictureBox3.SizeMode = PictureBoxSizeMode.StretchImage
         PictureBox3.TabIndex = 1
         PictureBox3.TabStop = False
@@ -239,7 +239,7 @@ Partial Class Login
         ' 
         Guna2TextBox1.Animated = True
         Guna2TextBox1.AutoRoundedCorners = True
-        Guna2TextBox1.BorderRadius = 27
+        Guna2TextBox1.BorderRadius = 24
         Guna2TextBox1.CustomizableEdges = CustomizableEdges9
         Guna2TextBox1.DefaultText = ""
         Guna2TextBox1.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
@@ -249,14 +249,14 @@ Partial Class Login
         Guna2TextBox1.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         Guna2TextBox1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2TextBox1.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox1.Location = New Point(81, 21)
+        Guna2TextBox1.Location = New Point(69, 21)
         Guna2TextBox1.Margin = New Padding(3, 4, 3, 4)
         Guna2TextBox1.Name = "Guna2TextBox1"
         Guna2TextBox1.PasswordChar = ChrW(0)
         Guna2TextBox1.PlaceholderText = "Email / Number"
         Guna2TextBox1.SelectedText = ""
         Guna2TextBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges10
-        Guna2TextBox1.Size = New Size(262, 56)
+        Guna2TextBox1.Size = New Size(280, 50)
         Guna2TextBox1.TabIndex = 0
         Guna2TextBox1.TextAlign = HorizontalAlignment.Center
         ' 
