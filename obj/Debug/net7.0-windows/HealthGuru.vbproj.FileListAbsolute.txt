@@ -156,3 +156,4 @@ C:\Users\SOUDIPTA\source\repos\HellBoy-OP\HealthGuru\bin\Debug\net7.0-windows\ru
 C:\Users\User\Desktop\VisualStudioProjects\HealthGuru\bin\Debug\net7.0-windows\Guna.UI2.dll
 C:\Users\User\Desktop\VisualStudioProjects\HealthGuru\bin\Debug\net7.0-windows\System.Management.dll
 C:\Users\User\Desktop\VisualStudioProjects\HealthGuru\bin\Debug\net7.0-windows\runtimes\win\lib\net7.0\System.Management.dll
+C:\Users\User\Desktop\VisualStudioProjects\HealthGuru\obj\Debug\net7.0-windows\HealthGuru.Dashboard.resources
