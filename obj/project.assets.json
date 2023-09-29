@@ -3372,19 +3372,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\SOUDIPTA\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SOUDIPTA\\source\\repos\\HellBoy-OP\\HealthGuru\\HealthGuru.vbproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\VisualStudioProjects\\HealthGuru\\HealthGuru.vbproj",
       "projectName": "HealthGuru",
-      "projectPath": "C:\\Users\\SOUDIPTA\\source\\repos\\HellBoy-OP\\HealthGuru\\HealthGuru.vbproj",
-      "packagesPath": "C:\\Users\\SOUDIPTA\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SOUDIPTA\\source\\repos\\HellBoy-OP\\HealthGuru\\obj\\",
+      "projectPath": "C:\\Users\\User\\Desktop\\VisualStudioProjects\\HealthGuru\\HealthGuru.vbproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\VisualStudioProjects\\HealthGuru\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\SOUDIPTA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
