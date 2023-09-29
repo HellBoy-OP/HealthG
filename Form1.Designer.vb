@@ -122,7 +122,6 @@ Partial Class Form1
         Panel1.Anchor = AnchorStyles.None
         Panel1.BackColor = Color.FromArgb(CByte(90), CByte(180), CByte(90))
         Panel1.Controls.Add(Button3)
-        Panel1.Controls.Add(Button2)
         Panel1.Controls.Add(Button1)
         Panel1.Controls.Add(LinkLabel1)
         Panel1.Location = New Point(462, 316)
@@ -148,7 +147,7 @@ Partial Class Form1
         Button2.Anchor = AnchorStyles.None
         Button2.FlatStyle = FlatStyle.Flat
         Button2.Font = New Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point)
-        Button2.Location = New Point(0, -6)
+        Button2.Location = New Point(290, 122)
         Button2.Name = "Button2"
         Button2.Size = New Size(210, 60)
         Button2.TabIndex = 8
@@ -160,7 +159,7 @@ Partial Class Form1
         Label3.Anchor = AnchorStyles.None
         Label3.AutoSize = True
         Label3.BackColor = Color.Transparent
-        Label3.Font = New Font("Pristina", 24F, FontStyle.Bold, GraphicsUnit.Point)
+        Label3.Font = New Font("Pristina", 24.0F, FontStyle.Bold, GraphicsUnit.Point)
         Label3.ForeColor = SystemColors.ControlLightLight
         Label3.Location = New Point(517, 36)
         Label3.Name = "Label3"
@@ -170,13 +169,14 @@ Partial Class Form1
         ' 
         ' Form1
         ' 
-        AutoScaleDimensions = New SizeF(8F, 20F)
+        AutoScaleDimensions = New SizeF(8.0F, 20.0F)
         AutoScaleMode = AutoScaleMode.Font
         AutoSizeMode = AutoSizeMode.GrowAndShrink
         BackColor = Color.FromArgb(CByte(100), CByte(200), CByte(100))
         BackgroundImageLayout = ImageLayout.Center
         ClientSize = New Size(1327, 717)
         Controls.Add(Label3)
+        Controls.Add(Button2)
         Controls.Add(TextBox2)
         Controls.Add(Label2)
         Controls.Add(Label1)
