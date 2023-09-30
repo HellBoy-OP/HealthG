@@ -13,7 +13,9 @@ Module Module1
     Public UserData As New Dictionary(Of String, String)
 
     Public Sub Switch_Panel(ByVal panel As Panel, ByVal form As Form)
-        panel.Controls.Clear()
+        While panel.Controls.Count > 0
+            panel.Controls(0).Dispose()
+        End While
         form.TopLevel = False
         panel.Controls.Add(form)
         form.Show()
