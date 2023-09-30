@@ -39,6 +39,7 @@ Partial Class Login
         Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
+        Guna2CheckBox2 = New Guna.UI2.WinForms.Guna2CheckBox()
         LinkLabel1 = New LinkLabel()
         Guna2CheckBox1 = New Guna.UI2.WinForms.Guna2CheckBox()
         Guna2Button3 = New Guna.UI2.WinForms.Guna2Button()
@@ -62,6 +63,7 @@ Partial Class Login
         Guna2Panel1.AutoRoundedCorners = True
         Guna2Panel1.BackColor = Color.Transparent
         Guna2Panel1.BorderRadius = 182
+        Guna2Panel1.Controls.Add(Guna2CheckBox2)
         Guna2Panel1.Controls.Add(LinkLabel1)
         Guna2Panel1.Controls.Add(Guna2CheckBox1)
         Guna2Panel1.Controls.Add(Guna2Button3)
@@ -72,8 +74,31 @@ Partial Class Login
         Guna2Panel1.Location = New Point(20, 14)
         Guna2Panel1.Name = "Guna2Panel1"
         Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges14
-        Guna2Panel1.Size = New Size(366, 430)
+        Guna2Panel1.Size = New Size(366, 482)
         Guna2Panel1.TabIndex = 4
+        ' 
+        ' Guna2CheckBox2
+        ' 
+        Guna2CheckBox2.Animated = True
+        Guna2CheckBox2.AutoSize = True
+        Guna2CheckBox2.Checked = True
+        Guna2CheckBox2.CheckedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2CheckBox2.CheckedState.BorderRadius = 0
+        Guna2CheckBox2.CheckedState.BorderThickness = 0
+        Guna2CheckBox2.CheckedState.FillColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2CheckBox2.CheckState = CheckState.Checked
+        Guna2CheckBox2.Cursor = Cursors.Hand
+        Guna2CheckBox2.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        Guna2CheckBox2.ForeColor = Color.White
+        Guna2CheckBox2.Location = New Point(15, 321)
+        Guna2CheckBox2.Name = "Guna2CheckBox2"
+        Guna2CheckBox2.Size = New Size(131, 24)
+        Guna2CheckBox2.TabIndex = 8
+        Guna2CheckBox2.Text = "Remember Me"
+        Guna2CheckBox2.UncheckedState.BorderColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        Guna2CheckBox2.UncheckedState.BorderRadius = 0
+        Guna2CheckBox2.UncheckedState.BorderThickness = 0
+        Guna2CheckBox2.UncheckedState.FillColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
         ' 
         ' LinkLabel1
         ' 
@@ -81,7 +106,7 @@ Partial Class Login
         LinkLabel1.AutoSize = True
         LinkLabel1.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
         LinkLabel1.LinkColor = Color.White
-        LinkLabel1.Location = New Point(220, 302)
+        LinkLabel1.Location = New Point(222, 321)
         LinkLabel1.Name = "LinkLabel1"
         LinkLabel1.Size = New Size(130, 20)
         LinkLabel1.TabIndex = 7
@@ -99,7 +124,7 @@ Partial Class Login
         Guna2CheckBox1.Cursor = Cursors.Hand
         Guna2CheckBox1.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
         Guna2CheckBox1.ForeColor = Color.White
-        Guna2CheckBox1.Location = New Point(14, 302)
+        Guna2CheckBox1.Location = New Point(216, 260)
         Guna2CheckBox1.Name = "Guna2CheckBox1"
         Guna2CheckBox1.Size = New Size(136, 24)
         Guna2CheckBox1.TabIndex = 6
@@ -113,7 +138,7 @@ Partial Class Login
         ' 
         Guna2Button3.AutoRoundedCorners = True
         Guna2Button3.BorderColor = Color.White
-        Guna2Button3.BorderRadius = 18
+        Guna2Button3.BorderRadius = 24
         Guna2Button3.BorderThickness = 2
         Guna2Button3.Cursor = Cursors.Hand
         Guna2Button3.CustomizableEdges = CustomizableEdges1
@@ -124,16 +149,17 @@ Partial Class Login
         Guna2Button3.FillColor = Color.Transparent
         Guna2Button3.Font = New Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point)
         Guna2Button3.ForeColor = Color.White
-        Guna2Button3.Location = New Point(112, 372)
+        Guna2Button3.Location = New Point(99, 363)
         Guna2Button3.Name = "Guna2Button3"
         Guna2Button3.ShadowDecoration.CustomizableEdges = CustomizableEdges2
-        Guna2Button3.Size = New Size(126, 39)
+        Guna2Button3.Size = New Size(147, 51)
         Guna2Button3.TabIndex = 5
         Guna2Button3.Text = "Sign In"
         ' 
         ' Guna2Button2
         ' 
         Guna2Button2.Animated = True
+        Guna2Button2.AnimatedGIF = True
         Guna2Button2.AutoRoundedCorners = True
         Guna2Button2.BorderColor = Color.DarkGreen
         Guna2Button2.BorderRadius = 26
@@ -156,6 +182,8 @@ Partial Class Login
         ' 
         ' Guna2Button1
         ' 
+        Guna2Button1.Animated = True
+        Guna2Button1.AnimatedGIF = True
         Guna2Button1.AutoRoundedCorners = True
         Guna2Button1.BackColor = Color.Transparent
         Guna2Button1.BorderColor = Color.DarkGreen
@@ -193,7 +221,7 @@ Partial Class Login
         ' PictureBox4
         ' 
         PictureBox4.Image = My.Resources.Resources.pass
-        PictureBox4.Location = New Point(11, 110)
+        PictureBox4.Location = New Point(12, 110)
         PictureBox4.Name = "PictureBox4"
         PictureBox4.Size = New Size(49, 49)
         PictureBox4.SizeMode = PictureBoxSizeMode.StretchImage
@@ -253,7 +281,7 @@ Partial Class Login
         Guna2TextBox1.Margin = New Padding(3, 4, 3, 4)
         Guna2TextBox1.Name = "Guna2TextBox1"
         Guna2TextBox1.PasswordChar = ChrW(0)
-        Guna2TextBox1.PlaceholderText = "Email / Number"
+        Guna2TextBox1.PlaceholderText = "Phone Number"
         Guna2TextBox1.SelectedText = ""
         Guna2TextBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges10
         Guna2TextBox1.Size = New Size(280, 50)
@@ -308,4 +336,5 @@ Partial Class Login
     Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents Guna2TextBox1 As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents Guna2GradientPanel1 As Guna.UI2.WinForms.Guna2GradientPanel
+    Friend WithEvents Guna2CheckBox2 As Guna.UI2.WinForms.Guna2CheckBox
 End Class

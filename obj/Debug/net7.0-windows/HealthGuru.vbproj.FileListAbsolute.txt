@@ -18,7 +18,6 @@ C:\Users\User\Desktop\VisualStudioProjects\HealthGuru\obj\Debug\net7.0-windows\H
 C:\Users\User\Desktop\VisualStudioProjects\HealthGuru\obj\Debug\net7.0-windows\HealthGuru.Home.resources
 C:\Users\User\Desktop\VisualStudioProjects\HealthGuru\obj\Debug\net7.0-windows\HealthGuru.Appointment.resources
 C:\Users\User\Desktop\VisualStudioProjects\HealthGuru\obj\Debug\net7.0-windows\HealthGuru.ContactUs.resources
-C:\Users\User\Desktop\VisualStudioProjects\HealthGuru\obj\Debug\net7.0-windows\HealthGuru.Settings.resources
 C:\Users\User\Desktop\VisualStudioProjects\HealthGuru\bin\Debug\net7.0-windows\Microsoft.Extensions.Configuration.dll
 C:\Users\User\Desktop\VisualStudioProjects\HealthGuru\bin\Debug\net7.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\User\Desktop\VisualStudioProjects\HealthGuru\bin\Debug\net7.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
@@ -29,7 +28,6 @@ C:\Users\User\Desktop\VisualStudioProjects\HealthGuru\bin\Debug\net7.0-windows\M
 C:\Users\User\Desktop\VisualStudioProjects\HealthGuru\bin\Debug\net7.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
 C:\Users\User\Desktop\VisualStudioProjects\HealthGuru\bin\Debug\net7.0-windows\Microsoft.Extensions.Primitives.dll
 C:\Users\User\Desktop\VisualStudioProjects\HealthGuru\obj\Debug\net7.0-windows\HealthGuru.vbproj.AssemblyReference.cache
-C:\Users\User\Desktop\VisualStudioProjects\HealthGuru\obj\Debug\net7.0-windows\HealthGuru.Payment.resources
 C:\Users\User\Desktop\VisualStudioProjects\HealthGuru\obj\Debug\net7.0-windows\HealthGuru.vbproj.CopyComplete
 C:\Users\User\Desktop\VisualStudioProjects\HealthGuru\bin\Debug\net7.0-windows\HealthGuru.dll.config
 C:\Users\User\Desktop\VisualStudioProjects\HealthGuru\bin\Debug\net7.0-windows\ZstdSharp.dll
