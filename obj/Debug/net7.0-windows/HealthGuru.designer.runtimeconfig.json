@@ -12,7 +12,7 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\SOUDIPTA\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\User\\.dotnet\\store\\|arch|\\|tfm|",
       "C:\\Users\\SOUDIPTA\\.nuget\\packages"
     ],
     "configProperties": {
