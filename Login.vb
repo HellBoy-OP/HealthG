@@ -1,4 +1,5 @@
-﻿Imports Microsoft.Data.SqlClient
+﻿Imports System.Management
+Imports Microsoft.Data.SqlClient
 
 Public Class Login
     Private Sub Login_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -20,7 +21,7 @@ Public Class Login
     End Sub
 
     Private Sub Guna2Button2_Click(sender As Object, e As EventArgs) Handles Guna2Button2.Click
-        Switch_Panel(Form1.Panel1, Register)
+        Switch_Panel(StartPage.Panel1, Register)
     End Sub
 
     Private Function Check_Fields()
@@ -51,7 +52,6 @@ Public Class Login
                 If DbCon.State = ConnectionState.Closed Then
                     DbCon.Open()
                 End If
-                UserData.Clear()
                 Dim query = String.Format($"SELECT * FROM Users WHERE Phone='{phone}' AND Password='{password}'")
                 adaptor = New SqlDataAdapter(query, DbCon)
                 ds = New DataSet
@@ -62,10 +62,29 @@ Public Class Login
                     DbCon.Close()
                     Return
                 Else
+                    DbCon.Close()
                     If Guna2CheckBox2.Checked = True Then
-
+                        Dim update_cmd As New SqlCommand("UPDATE Users SET Remember=@to_remember, SystemIdHash=@systemidhash WHERE Phone=@phone;", DbCon)
+                        Dim systemidhash = GenerateUniqueID()
+                        update_cmd.Parameters.AddWithValue("phone", phone.ToString)
+                        update_cmd.Parameters.AddWithValue("systemidhash", systemidhash.ToString)
+                        update_cmd.Parameters.AddWithValue("to_remember", 0)
+                        If DbCon.State = ConnectionState.Closed Then
+                            DbCon.Open()
+                        End If
+                        update_cmd.ExecuteNonQuery()
+                    Else
+                        Dim update_cmd As New SqlCommand("UPDATE Users SET Remember=@to_remember WHERE Phone=@phone;", DbCon)
+                        update_cmd.Parameters.AddWithValue("phone", phone.ToString)
+                        update_cmd.Parameters.AddWithValue("to_remember", 1)
+                        update_cmd.ExecuteNonQuery()
+                        If DbCon.State = ConnectionState.Closed Then
+                            DbCon.Open()
+                        End If
+                        update_cmd.ExecuteNonQuery()
                     End If
                     DbCon.Close()
+                    Switch_Panel(Form1.Guna2Panel1, Dashboard)
                 End If
             Catch ex As Exception
                 MsgBox("Error in Database: " + ex.ToString, MsgBoxStyle.Information, "Login Error")

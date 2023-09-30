@@ -1,4 +1,5 @@
-﻿Imports System.Text.RegularExpressions
+﻿Imports System.Management
+Imports System.Text.RegularExpressions
 Imports Guna.UI2.WinForms
 Imports Microsoft.Data
 
@@ -17,6 +18,39 @@ Module Module1
         panel.Controls.Add(form)
         form.Show()
     End Sub
+
+    Public Function GenerateUniqueID() As String
+        Dim macAddress As String = GetMacAddress()
+        Dim serialNumber As String = GetHardDriveSerialNumber()
+        Dim uniqueID As String = macAddress & serialNumber
+        Return uniqueID
+    End Function
+
+    Private Function GetMacAddress() As String
+        Dim macAddress As String = String.Empty
+        Dim mc As New ManagementClass("Win32_NetworkAdapterConfiguration")
+        Dim moc As ManagementObjectCollection = mc.GetInstances()
+        For Each mo As ManagementObject In moc
+            If macAddress = String.Empty Then
+                If CBool(mo("IPEnabled")) Then
+                    macAddress = mo("MacAddress").ToString()
+                    Exit For
+                End If
+            End If
+        Next
+        Return macAddress
+    End Function
+
+    Private Function GetHardDriveSerialNumber() As String
+        Dim serialNumber As String = String.Empty
+        Dim mc As New ManagementClass("Win32_DiskDrive")
+        Dim moc As ManagementObjectCollection = mc.GetInstances()
+        For Each mo As ManagementObject In moc
+            serialNumber = mo("SerialNumber").ToString()
+            Exit For
+        Next
+        Return serialNumber
+    End Function
 
     Public Enum ValidationType
         Only_Numbers = 1

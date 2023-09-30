@@ -160,3 +160,4 @@ C:\Users\User\Desktop\VisualStudioProjects\HealthGuru\obj\Debug\net7.0-windows\H
 C:\Users\SOUDIPTA\source\repos\HellBoy-OP\HealthGuru\obj\Debug\net7.0-windows\HealthGuru.Dashboard.resources
 C:\Users\SOUDIPTA\source\repos\HellBoy-OP\HealthGuru\obj\Debug\net7.0-windows\HealthGuru.Login.resources
 C:\Users\SOUDIPTA\source\repos\HellBoy-OP\HealthGuru\obj\Debug\net7.0-windows\HealthGuru.Register.resources
+C:\Users\User\Desktop\VisualStudioProjects\HealthGuru\obj\Debug\net7.0-windows\HealthGuru.StartPage.resources

@@ -1,4 +1,5 @@
-﻿Imports Microsoft.Data.SqlClient
+﻿Imports System.Diagnostics.Eventing.Reader
+Imports Microsoft.Data.SqlClient
 
 Public Class Register
     Private Sub Register_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -15,7 +16,7 @@ Public Class Register
     End Sub
 
     Private Sub Guna2Button1_Click(sender As Object, e As EventArgs) Handles Guna2Button1.Click
-        Switch_Panel(Form1.Panel1, Login)
+        Switch_Panel(StartPage.Panel1, Login)
     End Sub
 
     Private Function Check_Fields()
@@ -77,9 +78,12 @@ Public Class Register
                 adaptor.Fill(ds, "Users")
                 adaptor.Dispose()
                 If ds.Tables("Users").Rows.Count > 0 Then
-                    MsgBox($"The Phone number: {phone} already exists in the Database. Please login using your password!")
+                    MsgBox($"The Phone number: {phone} already exists in the Database. Please login using your password!", MsgBoxStyle.Exclamation, "Register")
                     DbCon.Close()
+                    Guna2TextBox2.ForeColor = Color.Red
                     Return
+                Else
+                    Guna2TextBox2.ForeColor = Color.FromArgb(125, 137, 149)
                 End If
                 DbCon.Close()
                 Dim insert_cmd As New SqlCommand($"INSERT INTO Users (Name, Phone, Email, Password, JoinDate) VALUES (@name, @phone, @email, @password, @today);", DbCon)
@@ -105,7 +109,7 @@ Public Class Register
                 Guna2TextBox5.Text = ""
                 Guna2CustomCheckBox1.Checked = False
                 Guna2CheckBox1.Checked = False
-                Switch_Panel(Form1.Panel1, Login)
+                Switch_Panel(StartPage.Panel1, Login)
             Catch ex As Exception
                 MsgBox("Error in Database: " + ex.ToString, MsgBoxStyle.Information, "Registration Error")
             End Try

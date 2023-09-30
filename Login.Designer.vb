@@ -149,7 +149,7 @@ Partial Class Login
         Guna2Button3.FillColor = Color.Transparent
         Guna2Button3.Font = New Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point)
         Guna2Button3.ForeColor = Color.White
-        Guna2Button3.Location = New Point(99, 363)
+        Guna2Button3.Location = New Point(104, 363)
         Guna2Button3.Name = "Guna2Button3"
         Guna2Button3.ShadowDecoration.CustomizableEdges = CustomizableEdges2
         Guna2Button3.Size = New Size(147, 51)
