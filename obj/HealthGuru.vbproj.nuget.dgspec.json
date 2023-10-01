@@ -44,17 +44,13 @@
               "target": "Package",
               "version": "[2.0.4.5, )"
             },
-            "Microsoft.Data.SqlClient": {
+            "MongoDB.Driver": {
               "target": "Package",
-              "version": "[5.1.1, )"
+              "version": "[2.21.0, )"
             },
-            "Microsoft.Extensions.Configuration.UserSecrets": {
+            "MongoDB.Driver.Core": {
               "target": "Package",
-              "version": "[7.0.0, )"
-            },
-            "MySql.Data": {
-              "target": "Package",
-              "version": "[8.1.0, )"
+              "version": "[2.21.0, )"
             }
           },
           "imports": [

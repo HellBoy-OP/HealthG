@@ -25,11 +25,9 @@ Partial Class StartPage
         Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Guna2GradientPanel1 = New Guna.UI2.WinForms.Guna2GradientPanel()
-        Panel1 = New Panel()
         PictureBox2 = New PictureBox()
         PictureBox1 = New PictureBox()
         PictureBox5 = New PictureBox()
-        Guna2GradientPanel1.SuspendLayout()
         CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox5, ComponentModel.ISupportInitialize).BeginInit()
@@ -40,7 +38,6 @@ Partial Class StartPage
         Guna2GradientPanel1.Anchor = AnchorStyles.None
         Guna2GradientPanel1.BackColor = Color.Transparent
         Guna2GradientPanel1.BorderRadius = 40
-        Guna2GradientPanel1.Controls.Add(Panel1)
         CustomizableEdges1.BottomRight = False
         CustomizableEdges1.TopLeft = False
         Guna2GradientPanel1.CustomizableEdges = CustomizableEdges1
@@ -56,15 +53,6 @@ Partial Class StartPage
         Guna2GradientPanel1.Size = New Size(410, 530)
         Guna2GradientPanel1.TabIndex = 11
         Guna2GradientPanel1.UseTransparentBackground = True
-        ' 
-        ' Panel1
-        ' 
-        Panel1.BackgroundImageLayout = ImageLayout.Zoom
-        Panel1.ImeMode = ImeMode.NoControl
-        Panel1.Location = New Point(15, 20)
-        Panel1.Name = "Panel1"
-        Panel1.Size = New Size(380, 490)
-        Panel1.TabIndex = 0
         ' 
         ' PictureBox2
         ' 
@@ -115,7 +103,6 @@ Partial Class StartPage
         FormBorderStyle = FormBorderStyle.None
         Name = "StartPage"
         Text = "StartPage"
-        Guna2GradientPanel1.ResumeLayout(False)
         CType(PictureBox2, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox5, ComponentModel.ISupportInitialize).EndInit()
@@ -123,7 +110,6 @@ Partial Class StartPage
     End Sub
 
     Friend WithEvents Guna2GradientPanel1 As Guna.UI2.WinForms.Guna2GradientPanel
-    Friend WithEvents Panel1 As Panel
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents PictureBox5 As PictureBox

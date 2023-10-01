@@ -30,6 +30,7 @@ Partial Class Form1
         ' 
         ' Guna2Panel1
         ' 
+        Guna2Panel1.BackColor = Color.Transparent
         Guna2Panel1.CustomizableEdges = CustomizableEdges1
         Guna2Panel1.Location = New Point(-1, -3)
         Guna2Panel1.Name = "Guna2Panel1"

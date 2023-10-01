@@ -1,5 +1,4 @@
-﻿Imports System.Diagnostics.Eventing.Reader
-Imports Microsoft.Data.SqlClient
+﻿Imports MongoDB.Bson
 
 Public Class Register
     Private Sub Register_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -16,29 +15,10 @@ Public Class Register
     End Sub
 
     Private Sub Guna2Button1_Click(sender As Object, e As EventArgs) Handles Guna2Button1.Click
-        Switch_Panel(StartPage.Panel1, Login)
+        Switch_Panel(StartPage.Guna2GradientPanel1, Login)
     End Sub
 
-    Private Function Check_Fields()
-        If Guna2TextBox1.Text = "" Then
-            Return False
-        End If
-        If Guna2TextBox2.Text = "" Then
-            Return False
-        End If
-        If Guna2TextBox4.Text = "" Then
-            Return False
-        End If
-        If Guna2TextBox5.Text = "" Then
-            Return False
-        End If
-        If Guna2CustomCheckBox1.Checked = False Then
-            Return False
-        End If
-        Return True
-    End Function
-
-    Private Sub Guna2Button3_Click(sender As Object, e As EventArgs) Handles Guna2Button3.Click
+    Private Async Sub Guna2Button3_Click(sender As Object, e As EventArgs) Handles Guna2Button3.Click
         If Not Check_Fields() Then
             MsgBox("Please fillup all the required fields and agree to the terms and conditions.", MsgBoxStyle.Information, "Register")
         Else
@@ -59,48 +39,16 @@ Public Class Register
             Dim phone As String = Guna2TextBox2.Text
             Dim email As String = Guna2TextBox3.Text
             Dim password As String = Guna2TextBox4.Text
-            Dim today As String = DateTime.Today.ToString("yyyy-MM-dd")
 
             If phone.StartsWith("+91") Then
                 phone = phone.Substring(3)
             End If
 
-            DbCon = New SqlConnection With {
-                .ConnectionString = DbAddress
-            }
-            Try
-                If DbCon.State = ConnectionState.Closed Then
-                    DbCon.Open()
-                End If
-                Dim query = String.Format($"SELECT * FROM Users WHERE Phone={phone}")
-                adaptor = New SqlDataAdapter(query, DbCon)
-                ds = New DataSet
-                adaptor.Fill(ds, "Users")
-                adaptor.Dispose()
-                If ds.Tables("Users").Rows.Count > 0 Then
-                    MsgBox($"The Phone number: {phone} already exists in the Database. Please login using your password!", MsgBoxStyle.Exclamation, "Register")
-                    DbCon.Close()
-                    Guna2TextBox2.ForeColor = Color.Red
-                    Return
-                Else
-                    Guna2TextBox2.ForeColor = Color.FromArgb(125, 137, 149)
-                End If
-                DbCon.Close()
-                Dim insert_cmd As New SqlCommand($"INSERT INTO Users (Name, Phone, Email, Password, JoinDate) VALUES (@name, @phone, @email, @password, @today);", DbCon)
-                insert_cmd.Parameters.AddWithValue("name", name.ToString)
-                insert_cmd.Parameters.AddWithValue("phone", phone.ToString)
-                insert_cmd.Parameters.AddWithValue("password", password.ToString)
-                insert_cmd.Parameters.AddWithValue("today", today.ToString)
-                If email = "" Then
-                    insert_cmd.Parameters.AddWithValue("email", DBNull.Value)
-                Else
-                    insert_cmd.Parameters.AddWithValue("email", email)
-                End If
-                If DbCon.State = ConnectionState.Closed Then
-                    DbCon.Open()
-                End If
-                insert_cmd.ExecuteNonQuery()
-                DbCon.Close()
+            Dim userDocument As BsonDocument = Await mongodb.GetUser("phone", phone)
+
+            If userDocument Is Nothing Then
+                Guna2TextBox2.ForeColor = Color.FromArgb(125, 137, 149)
+                mongodb.InsertUser(name, email, password, phone)
                 MsgBox("Registration Successful! Return to Login Page and login with your credentials!", MsgBoxStyle.OkOnly, "Successfull")
                 Guna2TextBox1.Text = ""
                 Guna2TextBox2.Text = ""
@@ -109,10 +57,11 @@ Public Class Register
                 Guna2TextBox5.Text = ""
                 Guna2CustomCheckBox1.Checked = False
                 Guna2CheckBox1.Checked = False
-                Switch_Panel(StartPage.Panel1, Login)
-            Catch ex As Exception
-                MsgBox("Error in Database: " + ex.ToString, MsgBoxStyle.Information, "Registration Error")
-            End Try
+                Switch_Panel(StartPage.Guna2GradientPanel1, Login)
+            Else
+                Guna2TextBox2.ForeColor = Color.Red
+                MsgBox($"The Phone number: {phone} already exists in the Database. Please login using your password!", MsgBoxStyle.Exclamation, "Register")
+            End If
         End If
     End Sub
 
@@ -123,4 +72,23 @@ Public Class Register
             Guna2TextBox5.UseSystemPasswordChar = True
         End If
     End Sub
+
+    Private Function Check_Fields()
+        If Guna2TextBox1.Text = "" Then
+            Return False
+        End If
+        If Guna2TextBox2.Text = "" Then
+            Return False
+        End If
+        If Guna2TextBox4.Text = "" Then
+            Return False
+        End If
+        If Guna2TextBox5.Text = "" Then
+            Return False
+        End If
+        If Guna2CustomCheckBox1.Checked = False Then
+            Return False
+        End If
+        Return True
+    End Function
 End Class

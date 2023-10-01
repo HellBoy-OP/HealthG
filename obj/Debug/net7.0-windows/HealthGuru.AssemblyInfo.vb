@@ -13,8 +13,7 @@ Option Explicit On
 
 Imports System
 Imports System.Reflection
-<Assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("c8ed0aab-dd16-4a1e-a1e0-4b44ad878c14"),  _
- Assembly: System.Reflection.AssemblyCompanyAttribute("HealthGuru"),  _
+<Assembly: System.Reflection.AssemblyCompanyAttribute("HealthGuru"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
  Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0"),  _

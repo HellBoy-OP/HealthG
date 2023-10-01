@@ -1,24 +1,21 @@
 ﻿Imports System.Management
 Imports System.Text.RegularExpressions
 Imports Guna.UI2.WinForms
-Imports Microsoft.Data
 
 Module Module1
     ''' Here we store global variables and global modules '''
 
-    Public DbAddress As String = "Server='LAPTOP-O23E4BES';Database='AyushmanBhavahDB';Trusted_Connection=True;trustServerCertificate=True"
-    Public DbCon As SqlClient.SqlConnection
-    Public adaptor As SqlClient.SqlDataAdapter
-    Public ds As DataSet
-    Public UserData As New Dictionary(Of String, String)
+    Public mongodb As New DatabaseClass()
 
     Public Sub Switch_Panel(ByVal panel As Panel, ByVal form As Form)
         While panel.Controls.Count > 0
             panel.Controls(0).Dispose()
         End While
-        form.TopLevel = False
-        panel.Controls.Add(form)
         form.Show()
+        form.TopLevel = False
+        form.Location = New Point((panel.Width - form.Width) / 2, (panel.Height - form.Height) / 2)
+        panel.Controls.Add(form)
+        form.Refresh()
     End Sub
 
     Public Function GenerateUniqueID() As String
