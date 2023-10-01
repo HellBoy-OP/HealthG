@@ -74,7 +74,7 @@ Partial Class Dashboard
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.Font = New Font("Agency FB", 12.0F, FontStyle.Bold, GraphicsUnit.Point)
+        Label1.Font = New Font("Agency FB", 12F, FontStyle.Bold, GraphicsUnit.Point)
         Label1.ForeColor = Color.FromArgb(CByte(104), CByte(25), CByte(228))
         Label1.Location = New Point(26, 46)
         Label1.Name = "Label1"
@@ -97,7 +97,7 @@ Partial Class Dashboard
         ' 
         TextBox5.BackColor = SystemColors.HighlightText
         TextBox5.BorderStyle = BorderStyle.None
-        TextBox5.Font = New Font("Segoe UI Black", 9.0F, FontStyle.Bold, GraphicsUnit.Point)
+        TextBox5.Font = New Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point)
         TextBox5.ForeColor = Color.FromArgb(CByte(104), CByte(25), CByte(228))
         TextBox5.Location = New Point(66, 9)
         TextBox5.Multiline = True
@@ -109,7 +109,7 @@ Partial Class Dashboard
         ' TextBox4
         ' 
         TextBox4.BorderStyle = BorderStyle.None
-        TextBox4.Font = New Font("Segoe UI Black", 9.0F, FontStyle.Bold, GraphicsUnit.Point)
+        TextBox4.Font = New Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point)
         TextBox4.ForeColor = Color.FromArgb(CByte(104), CByte(25), CByte(228))
         TextBox4.Location = New Point(62, 15)
         TextBox4.Name = "TextBox4"
@@ -120,7 +120,7 @@ Partial Class Dashboard
         ' TextBox3
         ' 
         TextBox3.BorderStyle = BorderStyle.None
-        TextBox3.Font = New Font("Segoe UI Black", 9.0F, FontStyle.Bold, GraphicsUnit.Point)
+        TextBox3.Font = New Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point)
         TextBox3.ForeColor = Color.FromArgb(CByte(104), CByte(25), CByte(228))
         TextBox3.Location = New Point(60, 14)
         TextBox3.Name = "TextBox3"
@@ -131,7 +131,7 @@ Partial Class Dashboard
         ' TextBox2
         ' 
         TextBox2.BorderStyle = BorderStyle.None
-        TextBox2.Font = New Font("Segoe UI Black", 9.0F, FontStyle.Bold, GraphicsUnit.Point)
+        TextBox2.Font = New Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point)
         TextBox2.ForeColor = Color.FromArgb(CByte(104), CByte(25), CByte(228))
         TextBox2.Location = New Point(60, 15)
         TextBox2.Name = "TextBox2"
@@ -143,7 +143,7 @@ Partial Class Dashboard
         ' 
         TextBox1.BackColor = SystemColors.HighlightText
         TextBox1.BorderStyle = BorderStyle.None
-        TextBox1.Font = New Font("Segoe UI Black", 9.0F, FontStyle.Bold, GraphicsUnit.Point)
+        TextBox1.Font = New Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point)
         TextBox1.ForeColor = Color.FromArgb(CByte(104), CByte(25), CByte(228))
         TextBox1.Location = New Point(67, 89)
         TextBox1.Name = "TextBox1"
@@ -175,7 +175,7 @@ Partial Class Dashboard
         ' 
         ' Dashboard
         ' 
-        AutoScaleDimensions = New SizeF(8.0F, 20.0F)
+        AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(100), CByte(210), CByte(120))
         ClientSize = New Size(1280, 705)
