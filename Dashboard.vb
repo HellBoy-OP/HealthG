@@ -102,5 +102,3 @@ End Class
 '    Panel5.Controls.Add(panel)
 '    panel.Show()
 'End Sub
-
-End Class
