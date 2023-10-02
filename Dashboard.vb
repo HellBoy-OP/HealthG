@@ -1,7 +1,24 @@
 ﻿
 Public Class Dashboard
+    Private Sub Guna2Button1_Click(sender As Object, e As EventArgs)
 
+    End Sub
 
+    Private Sub PictureBox3_Click(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub PictureBox5_Click(sender As Object, e As EventArgs) Handles PictureBox5.Click
+
+    End Sub
+
+    Private Sub Panel1_Paint(sender As Object, e As PaintEventArgs) Handles Panel1.Paint
+
+    End Sub
+
+    Private Sub Label10_Click(sender As Object, e As EventArgs) Handles Label10.Click
+
+    End Sub
 End Class
 
 
