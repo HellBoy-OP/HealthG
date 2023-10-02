@@ -1,23 +1,17 @@
 ﻿
+Imports MongoDB.Bson
+
 Public Class Dashboard
-    Private Sub Guna2Button1_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub PictureBox3_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub PictureBox5_Click(sender As Object, e As EventArgs) Handles PictureBox5.Click
-
-    End Sub
-
-    Private Sub Panel1_Paint(sender As Object, e As PaintEventArgs) Handles Panel1.Paint
-
-    End Sub
-
-    Private Sub Label10_Click(sender As Object, e As EventArgs) Handles Label10.Click
-
+    Private Async Sub Guna2GradientButton5_Click(sender As Object, e As EventArgs) Handles Guna2GradientButton5.Click
+        Dim phone As String = PresentUserData.Item("phone")
+        Dim currUser As BsonDocument = Await mongodb.GetUser("phone", phone)
+        If currUser IsNot Nothing Then
+            mongodb.RememberUser(False, phone)
+            Switch_Panel(Form1.Guna2Panel1, StartPage)
+        Else
+            Switch_Panel(Form1.Guna2Panel1, StartPage)
+        End If
+        PresentUserData.Clear()
     End Sub
 End Class
 

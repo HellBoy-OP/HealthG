@@ -42,6 +42,7 @@ Public Class Login
             If userDocument IsNot Nothing Then
                 Dim dbpassword As String = userDocument("password").AsString
                 If dbpassword = password Then
+                    PresentUserData.Clear()
                     Guna2TextBox1.ForeColor = Color.FromArgb(125, 137, 149)
                     Guna2TextBox2.ForeColor = Color.FromArgb(125, 137, 149)
                     mongodb.UpdateUser("systemId", systemidhash, phone)
@@ -50,6 +51,12 @@ Public Class Login
                     Else
                         mongodb.RememberUser(False, phone)
                     End If
+                    PresentUserData.Add("phone", phone)
+                    PresentUserData.Add("password", dbpassword)
+                    PresentUserData.Add("systemid", systemidhash)
+                    PresentUserData.Add("name", userDocument("fullname").AsString)
+                    PresentUserData.Add("email", userDocument("email").AsString)
+                    PresentUserData.Add("joindate", userDocument("joindate").AsString)
                     Switch_Panel(Form1.Guna2Panel1, Dashboard)
                     Return
                 Else

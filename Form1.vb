@@ -7,6 +7,13 @@ Public Class Form1
         If userDocument IsNot Nothing Then
             Dim remember = userDocument("remember").AsBoolean
             If remember Then
+                PresentUserData.Clear()
+                PresentUserData.Add("phone", userDocument("phone").AsString)
+                PresentUserData.Add("password", userDocument("password").AsString)
+                PresentUserData.Add("systemid", SystemIdHash)
+                PresentUserData.Add("name", userDocument("fullname").AsString)
+                PresentUserData.Add("email", userDocument("email").AsString)
+                PresentUserData.Add("joindate", userDocument("joindate").AsString)
                 Switch_Panel(Guna2Panel1, Dashboard)
             Else
                 Switch_Panel(Guna2Panel1, StartPage)

@@ -5,6 +5,7 @@ Imports Guna.UI2.WinForms
 Module Module1
     ''' Here we store global variables and global modules '''
 
+    Public PresentUserData As New Dictionary(Of String, String)
     Public mongodb As New DatabaseClass()
 
     Public Sub Switch_Panel(ByVal panel As Panel, ByVal form As Form)
