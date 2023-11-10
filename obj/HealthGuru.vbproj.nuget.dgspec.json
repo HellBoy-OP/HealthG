@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SOUDIPTA\\Source\\Repos\\HealthGuru\\HealthGuru.vbproj": {}
+    "C:\\Users\\SOUDIPTA\\Source\\Repos\\HellBoy-OP\\HealthGuru\\HealthGuru.vbproj": {}
   },
   "projects": {
-    "C:\\Users\\SOUDIPTA\\Source\\Repos\\HealthGuru\\HealthGuru.vbproj": {
+    "C:\\Users\\SOUDIPTA\\Source\\Repos\\HellBoy-OP\\HealthGuru\\HealthGuru.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SOUDIPTA\\Source\\Repos\\HealthGuru\\HealthGuru.vbproj",
+        "projectUniqueName": "C:\\Users\\SOUDIPTA\\Source\\Repos\\HellBoy-OP\\HealthGuru\\HealthGuru.vbproj",
         "projectName": "HealthGuru",
-        "projectPath": "C:\\Users\\SOUDIPTA\\Source\\Repos\\HealthGuru\\HealthGuru.vbproj",
+        "projectPath": "C:\\Users\\SOUDIPTA\\Source\\Repos\\HellBoy-OP\\HealthGuru\\HealthGuru.vbproj",
         "packagesPath": "C:\\Users\\SOUDIPTA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SOUDIPTA\\Source\\Repos\\HealthGuru\\obj\\",
+        "outputPath": "C:\\Users\\SOUDIPTA\\Source\\Repos\\HellBoy-OP\\HealthGuru\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
