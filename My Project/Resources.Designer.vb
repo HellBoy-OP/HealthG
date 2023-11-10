@@ -63,6 +63,16 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property _62759_computer_location_icon_icons_free_download_png_hd() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("62759-computer-location-icon-icons-free-download-png-hd", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property APPOINTMENT() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("APPOINTMENT", resourceCulture)
@@ -126,6 +136,16 @@ Namespace My.Resources
         Friend ReadOnly Property dashboard() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("dashboard", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property demo() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("demo", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

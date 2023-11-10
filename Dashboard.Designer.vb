@@ -24,6 +24,8 @@ Partial Class Dashboard
     Private Sub InitializeComponent()
         Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -36,8 +38,6 @@ Partial Class Dashboard
         Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         PictureBox1 = New PictureBox()
         Label3 = New Label()
         Label1 = New Label()
@@ -50,6 +50,7 @@ Partial Class Dashboard
         Label4 = New Label()
         Label2 = New Label()
         Guna2CustomGradientPanel1 = New Guna.UI2.WinForms.Guna2CustomGradientPanel()
+        Guna2GradientButton6 = New Guna.UI2.WinForms.Guna2GradientButton()
         Guna2GradientButton5 = New Guna.UI2.WinForms.Guna2GradientButton()
         Guna2Separator1 = New Guna.UI2.WinForms.Guna2Separator()
         Guna2GradientButton4 = New Guna.UI2.WinForms.Guna2GradientButton()
@@ -58,7 +59,7 @@ Partial Class Dashboard
         Guna2GradientButton1 = New Guna.UI2.WinForms.Guna2GradientButton()
         Guna2vSeparator1 = New Guna.UI2.WinForms.Guna2VSeparator()
         Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
-        Guna2GradientButton6 = New Guna.UI2.WinForms.Guna2GradientButton()
+        Guna2ContextMenuStrip1 = New Guna.UI2.WinForms.Guna2ContextMenuStrip()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         Guna2CustomGradientPanel1.SuspendLayout()
         SuspendLayout()
@@ -218,6 +219,45 @@ Partial Class Dashboard
         Guna2CustomGradientPanel1.ShadowDecoration.Shadow = New Padding(5, 5, 8, 8)
         Guna2CustomGradientPanel1.Size = New Size(267, 705)
         Guna2CustomGradientPanel1.TabIndex = 12
+        ' 
+        ' Guna2GradientButton6
+        ' 
+        Guna2GradientButton6.Animated = True
+        Guna2GradientButton6.AnimatedGIF = True
+        Guna2GradientButton6.AutoRoundedCorners = True
+        Guna2GradientButton6.BackColor = Color.Transparent
+        Guna2GradientButton6.BorderRadius = 34
+        Guna2GradientButton6.Cursor = Cursors.Hand
+        CustomizableEdges1.BottomLeft = False
+        CustomizableEdges1.TopLeft = False
+        Guna2GradientButton6.CustomizableEdges = CustomizableEdges1
+        Guna2GradientButton6.DisabledState.BorderColor = Color.DarkGray
+        Guna2GradientButton6.DisabledState.CustomBorderColor = Color.DarkGray
+        Guna2GradientButton6.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        Guna2GradientButton6.DisabledState.FillColor2 = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        Guna2GradientButton6.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        Guna2GradientButton6.FillColor = Color.Transparent
+        Guna2GradientButton6.FillColor2 = Color.Transparent
+        Guna2GradientButton6.Font = New Font("Segoe UI Semibold", 14F, FontStyle.Bold, GraphicsUnit.Point)
+        Guna2GradientButton6.ForeColor = Color.White
+        Guna2GradientButton6.HoverState.FillColor = Color.FromArgb(CByte(40), CByte(80), CByte(120))
+        Guna2GradientButton6.HoverState.FillColor2 = Color.FromArgb(CByte(50), CByte(230), CByte(160))
+        Guna2GradientButton6.Image = My.Resources.Resources.medicine
+        Guna2GradientButton6.ImageAlign = HorizontalAlignment.Left
+        Guna2GradientButton6.ImageOffset = New Point(10, 0)
+        Guna2GradientButton6.ImageSize = New Size(40, 40)
+        Guna2GradientButton6.Location = New Point(1, 190)
+        Guna2GradientButton6.Name = "Guna2GradientButton6"
+        Guna2GradientButton6.PressedColor = Color.FromArgb(CByte(128), CByte(255), CByte(128))
+        Guna2GradientButton6.RightToLeft = RightToLeft.No
+        Guna2GradientButton6.ShadowDecoration.CustomizableEdges = CustomizableEdges2
+        Guna2GradientButton6.Size = New Size(264, 70)
+        Guna2GradientButton6.TabIndex = 19
+        Guna2GradientButton6.Text = "Medicines"
+        Guna2GradientButton6.TextAlign = HorizontalAlignment.Right
+        Guna2GradientButton6.TextOffset = New Point(-10, 0)
+        Guna2GradientButton6.TextRenderingHint = Drawing.Text.TextRenderingHint.SingleBitPerPixelGridFit
+        Guna2GradientButton6.UseTransparentBackground = True
         ' 
         ' Guna2GradientButton5
         ' 
@@ -448,44 +488,20 @@ Partial Class Dashboard
         Guna2Panel1.TabIndex = 14
         Guna2Panel1.UseTransparentBackground = True
         ' 
-        ' Guna2GradientButton6
+        ' Guna2ContextMenuStrip1
         ' 
-        Guna2GradientButton6.Animated = True
-        Guna2GradientButton6.AnimatedGIF = True
-        Guna2GradientButton6.AutoRoundedCorners = True
-        Guna2GradientButton6.BackColor = Color.Transparent
-        Guna2GradientButton6.BorderRadius = 34
-        Guna2GradientButton6.Cursor = Cursors.Hand
-        CustomizableEdges1.BottomLeft = False
-        CustomizableEdges1.TopLeft = False
-        Guna2GradientButton6.CustomizableEdges = CustomizableEdges1
-        Guna2GradientButton6.DisabledState.BorderColor = Color.DarkGray
-        Guna2GradientButton6.DisabledState.CustomBorderColor = Color.DarkGray
-        Guna2GradientButton6.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        Guna2GradientButton6.DisabledState.FillColor2 = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        Guna2GradientButton6.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        Guna2GradientButton6.FillColor = Color.Transparent
-        Guna2GradientButton6.FillColor2 = Color.Transparent
-        Guna2GradientButton6.Font = New Font("Segoe UI Semibold", 14F, FontStyle.Bold, GraphicsUnit.Point)
-        Guna2GradientButton6.ForeColor = Color.White
-        Guna2GradientButton6.HoverState.FillColor = Color.FromArgb(CByte(40), CByte(80), CByte(120))
-        Guna2GradientButton6.HoverState.FillColor2 = Color.FromArgb(CByte(50), CByte(230), CByte(160))
-        Guna2GradientButton6.Image = My.Resources.Resources.medicine
-        Guna2GradientButton6.ImageAlign = HorizontalAlignment.Left
-        Guna2GradientButton6.ImageOffset = New Point(10, 0)
-        Guna2GradientButton6.ImageSize = New Size(40, 40)
-        Guna2GradientButton6.Location = New Point(1, 190)
-        Guna2GradientButton6.Name = "Guna2GradientButton6"
-        Guna2GradientButton6.PressedColor = Color.FromArgb(CByte(128), CByte(255), CByte(128))
-        Guna2GradientButton6.RightToLeft = RightToLeft.No
-        Guna2GradientButton6.ShadowDecoration.CustomizableEdges = CustomizableEdges2
-        Guna2GradientButton6.Size = New Size(264, 70)
-        Guna2GradientButton6.TabIndex = 19
-        Guna2GradientButton6.Text = "Medicines"
-        Guna2GradientButton6.TextAlign = HorizontalAlignment.Right
-        Guna2GradientButton6.TextOffset = New Point(-10, 0)
-        Guna2GradientButton6.TextRenderingHint = Drawing.Text.TextRenderingHint.SingleBitPerPixelGridFit
-        Guna2GradientButton6.UseTransparentBackground = True
+        Guna2ContextMenuStrip1.ImageScalingSize = New Size(20, 20)
+        Guna2ContextMenuStrip1.Name = "Guna2ContextMenuStrip1"
+        Guna2ContextMenuStrip1.RenderStyle.ArrowColor = Color.FromArgb(CByte(151), CByte(143), CByte(255))
+        Guna2ContextMenuStrip1.RenderStyle.BorderColor = Color.Gainsboro
+        Guna2ContextMenuStrip1.RenderStyle.ColorTable = Nothing
+        Guna2ContextMenuStrip1.RenderStyle.RoundedEdges = True
+        Guna2ContextMenuStrip1.RenderStyle.SelectionArrowColor = Color.White
+        Guna2ContextMenuStrip1.RenderStyle.SelectionBackColor = Color.FromArgb(CByte(100), CByte(88), CByte(255))
+        Guna2ContextMenuStrip1.RenderStyle.SelectionForeColor = Color.White
+        Guna2ContextMenuStrip1.RenderStyle.SeparatorColor = Color.Gainsboro
+        Guna2ContextMenuStrip1.RenderStyle.TextRenderingHint = Drawing.Text.TextRenderingHint.SystemDefault
+        Guna2ContextMenuStrip1.Size = New Size(61, 4)
         ' 
         ' Dashboard
         ' 
@@ -526,4 +542,5 @@ Partial Class Dashboard
     Friend WithEvents Guna2GradientButton5 As Guna.UI2.WinForms.Guna2GradientButton
     Friend WithEvents Guna2Panel1 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents Guna2GradientButton6 As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents Guna2ContextMenuStrip1 As Guna.UI2.WinForms.Guna2ContextMenuStrip
 End Class

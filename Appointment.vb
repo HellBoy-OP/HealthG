@@ -13,7 +13,7 @@ Public Class Appointment
 
     End Sub
 
-    Private Sub Guna2TextBox2_TextChanged(sender As Object, e As EventArgs) Handles Guna2TextBox2.TextChanged
+    Private Sub Guna2TextBox2_TextChanged(sender As Object, e As EventArgs)
 
     End Sub
 
