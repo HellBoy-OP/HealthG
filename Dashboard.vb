@@ -3,6 +3,7 @@ Imports MongoDB.Bson
 
 Public Class Dashboard
     Private Async Sub Guna2GradientButton5_Click(sender As Object, e As EventArgs) Handles Guna2GradientButton5.Click
+        ' Handles Logout Button
         Dim phone As String = PresentUserData.Item("phone")
         Dim currUser As BsonDocument = Await mongodb.GetUser("phone", phone)
         If currUser IsNot Nothing Then
@@ -12,6 +13,11 @@ Public Class Dashboard
             Switch_Panel(Form1.Guna2Panel1, StartPage)
         End If
         PresentUserData.Clear()
+    End Sub
+
+    Private Sub Guna2GradientButton2_Click(sender As Object, e As EventArgs) Handles Guna2GradientButton2.Click
+        ' Handles Appointment button
+        Switch_Panel(Guna2Panel1, Appointment)
     End Sub
 End Class
 

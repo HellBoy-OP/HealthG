@@ -107,7 +107,7 @@
           }
         }
       },
-      "MongoDB.Bson/2.21.0": {
+      "MongoDB.Bson/2.22.0": {
         "type": "package",
         "dependencies": {
           "System.Memory": "4.5.5",
@@ -124,12 +124,12 @@
           }
         }
       },
-      "MongoDB.Driver/2.21.0": {
+      "MongoDB.Driver/2.22.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Logging.Abstractions": "2.0.0",
-          "MongoDB.Bson": "2.21.0",
-          "MongoDB.Driver.Core": "2.21.0",
+          "MongoDB.Bson": "2.22.0",
+          "MongoDB.Driver.Core": "2.22.0",
           "MongoDB.Libmongocrypt": "1.8.0"
         },
         "compile": {
@@ -143,13 +143,13 @@
           }
         }
       },
-      "MongoDB.Driver.Core/2.21.0": {
+      "MongoDB.Driver.Core/2.22.0": {
         "type": "package",
         "dependencies": {
           "AWSSDK.SecurityToken": "3.7.100.14",
           "DnsClient": "1.6.1",
           "Microsoft.Extensions.Logging.Abstractions": "2.0.0",
-          "MongoDB.Bson": "2.21.0",
+          "MongoDB.Bson": "2.22.0",
           "MongoDB.Libmongocrypt": "1.8.0",
           "SharpCompress": "0.30.1",
           "Snappier": "1.0.0",
@@ -525,10 +525,10 @@
         "version.txt"
       ]
     },
-    "MongoDB.Bson/2.21.0": {
-      "sha512": "QT+D1I3Jz6r6S6kCgJD1L9dRCLVJCKlkGRkA+tJ7uLpHRmjDNcNKy4D1T+L9gQrjl95lDN9PHdwEytdvCW/jzA==",
+    "MongoDB.Bson/2.22.0": {
+      "sha512": "7Z+uP+PeIBrkzzRORTCjrMSYhzQgXxLYkXyML8WsBN7tHddicNY9Xh8Cmp5gRR4U4NuEbXCQtHplju0iVY/KuA==",
       "type": "package",
-      "path": "mongodb.bson/2.21.0",
+      "path": "mongodb.bson/2.22.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -539,15 +539,15 @@
         "lib/netstandard2.0/MongoDB.Bson.xml",
         "lib/netstandard2.1/MongoDB.Bson.dll",
         "lib/netstandard2.1/MongoDB.Bson.xml",
-        "mongodb.bson.2.21.0.nupkg.sha512",
+        "mongodb.bson.2.22.0.nupkg.sha512",
         "mongodb.bson.nuspec",
         "packageIcon.png"
       ]
     },
-    "MongoDB.Driver/2.21.0": {
-      "sha512": "VxKj1wuhadiXhaXkykCWRgsYOysdaOYJ202hJFz25UjkrqC/tHA8RS4hdS5HYfGWoI//fypBXnxZCkEjXLXdfw==",
+    "MongoDB.Driver/2.22.0": {
+      "sha512": "ngswtmzdtfaq+L0Ti1Kjm0QnVLgEJK233YPCpGN2buSArY2xEPsnQ2yos7SPGxuDzZPnxdn+XG9/OBt9atCpWw==",
       "type": "package",
-      "path": "mongodb.driver/2.21.0",
+      "path": "mongodb.driver/2.22.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -558,15 +558,15 @@
         "lib/netstandard2.0/MongoDB.Driver.xml",
         "lib/netstandard2.1/MongoDB.Driver.dll",
         "lib/netstandard2.1/MongoDB.Driver.xml",
-        "mongodb.driver.2.21.0.nupkg.sha512",
+        "mongodb.driver.2.22.0.nupkg.sha512",
         "mongodb.driver.nuspec",
         "packageIcon.png"
       ]
     },
-    "MongoDB.Driver.Core/2.21.0": {
-      "sha512": "Ac44U3bQfinmdH5KNFjTidJe9LKW87SxkXJ3YuIUJQMITEc4083YF1yvjJxaSeYF9er0YgHSmwhHpsZv0Fwplg==",
+    "MongoDB.Driver.Core/2.22.0": {
+      "sha512": "aMlyeGbQ9wk/bmy9xSr6dnkOszO3MVgv1wNcsm4ACwiup//VCZxvj5k0Wq/E0xGBYmqs/tNXqJmLy1IawRXPHA==",
       "type": "package",
-      "path": "mongodb.driver.core/2.21.0",
+      "path": "mongodb.driver.core/2.22.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -578,7 +578,7 @@
         "lib/netstandard2.0/MongoDB.Driver.Core.xml",
         "lib/netstandard2.1/MongoDB.Driver.Core.dll",
         "lib/netstandard2.1/MongoDB.Driver.Core.xml",
-        "mongodb.driver.core.2.21.0.nupkg.sha512",
+        "mongodb.driver.core.2.22.0.nupkg.sha512",
         "mongodb.driver.core.nuspec",
         "packageIcon.png"
       ]
@@ -914,29 +914,24 @@
   "projectFileDependencyGroups": {
     "net7.0-windows7.0": [
       "Guna.UI2.WinForms >= 2.0.4.5",
-      "MongoDB.Driver >= 2.21.0",
-      "MongoDB.Driver.Core >= 2.21.0"
+      "MongoDB.Driver >= 2.22.0",
+      "MongoDB.Driver.Core >= 2.22.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\SOUDIPTA\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SOUDIPTA\\Source\\Repos\\HellBoy-OP\\HealthGuru\\HealthGuru.vbproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\VisualStudioProjects\\HealthGuru\\HealthGuru.vbproj",
       "projectName": "HealthGuru",
-      "projectPath": "C:\\Users\\SOUDIPTA\\Source\\Repos\\HellBoy-OP\\HealthGuru\\HealthGuru.vbproj",
-      "packagesPath": "C:\\Users\\SOUDIPTA\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SOUDIPTA\\Source\\Repos\\HellBoy-OP\\HealthGuru\\obj\\",
+      "projectPath": "C:\\Users\\User\\Desktop\\VisualStudioProjects\\HealthGuru\\HealthGuru.vbproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\VisualStudioProjects\\HealthGuru\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\SOUDIPTA\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -944,7 +939,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -969,11 +963,11 @@
           },
           "MongoDB.Driver": {
             "target": "Package",
-            "version": "[2.21.0, )"
+            "version": "[2.22.0, )"
           },
           "MongoDB.Driver.Core": {
             "target": "Package",
-            "version": "[2.21.0, )"
+            "version": "[2.22.0, )"
           }
         },
         "imports": [
