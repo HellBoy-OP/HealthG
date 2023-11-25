@@ -2,6 +2,11 @@
 
 Public Class Appointment
 
+
+
+
+
+
     '    Dim DbCon As SqlClient.SqlConnection
     '    Dim adaptor As SqlClient.SqlDataAdapter
     '    Dim ds As DataSet

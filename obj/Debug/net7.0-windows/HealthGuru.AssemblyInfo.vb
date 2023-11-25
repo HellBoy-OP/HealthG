@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("HealthGuru"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e59735c6ea3db35af83b72e516a2bfdb3686b0bc"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("HealthGuru"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("HealthGuru"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _

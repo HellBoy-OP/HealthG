@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Suman Das\\source\\repos\\HellBoy-OP\\HealthGuru\\HealthGuru.vbproj": {}
+    "C:\\Users\\Suman Das\\OneDrive - dynamic techno\\Desktop\\VBProject\\HealthGuru\\HealthGuru.vbproj": {}
   },
   "projects": {
-    "C:\\Users\\Suman Das\\source\\repos\\HellBoy-OP\\HealthGuru\\HealthGuru.vbproj": {
+    "C:\\Users\\Suman Das\\OneDrive - dynamic techno\\Desktop\\VBProject\\HealthGuru\\HealthGuru.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Suman Das\\source\\repos\\HellBoy-OP\\HealthGuru\\HealthGuru.vbproj",
+        "projectUniqueName": "C:\\Users\\Suman Das\\OneDrive - dynamic techno\\Desktop\\VBProject\\HealthGuru\\HealthGuru.vbproj",
         "projectName": "HealthGuru",
-        "projectPath": "C:\\Users\\Suman Das\\source\\repos\\HellBoy-OP\\HealthGuru\\HealthGuru.vbproj",
+        "projectPath": "C:\\Users\\Suman Das\\OneDrive - dynamic techno\\Desktop\\VBProject\\HealthGuru\\HealthGuru.vbproj",
         "packagesPath": "C:\\Users\\Suman Das\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Suman Das\\source\\repos\\HellBoy-OP\\HealthGuru\\obj\\",
+        "outputPath": "C:\\Users\\Suman Das\\OneDrive - dynamic techno\\Desktop\\VBProject\\HealthGuru\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Suman Das\\AppData\\Roaming\\NuGet\\NuGet.Config",
