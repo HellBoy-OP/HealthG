@@ -58,7 +58,6 @@ C:\Users\SOUDIPTA\source\repos\HellBoy-OP\HealthGuru\bin\Debug\net7.0-windows\Mi
 C:\Users\SOUDIPTA\source\repos\HellBoy-OP\HealthGuru\bin\Debug\net7.0-windows\Microsoft.SqlServer.Types.dll
 C:\Users\SOUDIPTA\source\repos\HellBoy-OP\HealthGuru\obj\Debug\net7.0-windows\HealthGuru.vbproj.AssemblyReference.cache
 C:\Users\SOUDIPTA\source\repos\HellBoy-OP\HealthGuru\obj\Debug\net7.0-windows\HealthGuru.Appointment.resources
-C:\Users\SOUDIPTA\source\repos\HellBoy-OP\HealthGuru\obj\Debug\net7.0-windows\HealthGuru.ContactUs.resources
 C:\Users\SOUDIPTA\source\repos\HellBoy-OP\HealthGuru\obj\Debug\net7.0-windows\HealthGuru.Form1.resources
 C:\Users\SOUDIPTA\source\repos\HellBoy-OP\HealthGuru\obj\Debug\net7.0-windows\HealthGuru.Home.resources
 C:\Users\SOUDIPTA\source\repos\HellBoy-OP\HealthGuru\obj\Debug\net7.0-windows\HealthGuru.Resources.resources
@@ -221,3 +220,6 @@ C:\Users\Suman Das\OneDrive - dynamic techno\Desktop\VBProject\HealthGuru\obj\De
 C:\Users\User\Desktop\VisualStudioProjects\HealthGuru\obj\Debug\net7.0-windows\HealthGuru.Medicines.resources
 C:\Users\User\Desktop\VisualStudioProjects\HealthGuru\obj\Debug\net7.0-windows\HealthGuru.AboutUs.resources
 C:\Users\User\Desktop\VisualStudioProjects\HealthGuru\obj\Debug\net7.0-windows\HealthGuru.Settings.resources
+C:\Users\SOUDIPTA\Source\Repos\HellBoy-OP\HealthGuru\obj\Debug\net7.0-windows\HealthGuru.AboutUs.resources
+C:\Users\SOUDIPTA\Source\Repos\HellBoy-OP\HealthGuru\obj\Debug\net7.0-windows\HealthGuru.Medicines.resources
+C:\Users\SOUDIPTA\Source\Repos\HellBoy-OP\HealthGuru\obj\Debug\net7.0-windows\HealthGuru.Settings.resources
