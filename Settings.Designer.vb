@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Home
+Partial Class Settings
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -24,15 +24,15 @@ Partial Class Home
     Private Sub InitializeComponent()
         SuspendLayout()
         ' 
-        ' Home
+        ' Settings
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(100), CByte(210), CByte(120))
         ClientSize = New Size(960, 680)
         FormBorderStyle = FormBorderStyle.None
-        Name = "Home"
-        Text = "Home"
+        Name = "Settings"
+        Text = "Settings"
         ResumeLayout(False)
     End Sub
 End Class

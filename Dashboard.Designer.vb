@@ -22,22 +22,22 @@ Partial Class Dashboard
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges29 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges30 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges17 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges18 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges19 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges20 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges21 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges22 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges23 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges24 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges25 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges26 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges27 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges28 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges31 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges32 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         PictureBox1 = New PictureBox()
         Label3 = New Label()
         Label1 = New Label()
@@ -50,16 +50,15 @@ Partial Class Dashboard
         Label4 = New Label()
         Label2 = New Label()
         Guna2CustomGradientPanel1 = New Guna.UI2.WinForms.Guna2CustomGradientPanel()
-        Guna2GradientButton6 = New Guna.UI2.WinForms.Guna2GradientButton()
-        Guna2GradientButton5 = New Guna.UI2.WinForms.Guna2GradientButton()
+        MedicinesButton = New Guna.UI2.WinForms.Guna2GradientButton()
+        LogoutButton = New Guna.UI2.WinForms.Guna2GradientButton()
         Guna2Separator1 = New Guna.UI2.WinForms.Guna2Separator()
-        Guna2GradientButton4 = New Guna.UI2.WinForms.Guna2GradientButton()
-        Guna2GradientButton3 = New Guna.UI2.WinForms.Guna2GradientButton()
-        Guna2GradientButton2 = New Guna.UI2.WinForms.Guna2GradientButton()
-        Guna2GradientButton1 = New Guna.UI2.WinForms.Guna2GradientButton()
+        SettingsButton = New Guna.UI2.WinForms.Guna2GradientButton()
+        AboutUsButton = New Guna.UI2.WinForms.Guna2GradientButton()
+        AppointmentButton = New Guna.UI2.WinForms.Guna2GradientButton()
+        DashboardButton = New Guna.UI2.WinForms.Guna2GradientButton()
         Guna2vSeparator1 = New Guna.UI2.WinForms.Guna2VSeparator()
         Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
-        Guna2ContextMenuStrip1 = New Guna.UI2.WinForms.Guna2ContextMenuStrip()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         Guna2CustomGradientPanel1.SuspendLayout()
         SuspendLayout()
@@ -192,16 +191,16 @@ Partial Class Dashboard
         ' 
         Guna2CustomGradientPanel1.BackColor = Color.Transparent
         Guna2CustomGradientPanel1.BorderRadius = 30
-        Guna2CustomGradientPanel1.Controls.Add(Guna2GradientButton6)
-        Guna2CustomGradientPanel1.Controls.Add(Guna2GradientButton5)
+        Guna2CustomGradientPanel1.Controls.Add(MedicinesButton)
+        Guna2CustomGradientPanel1.Controls.Add(LogoutButton)
         Guna2CustomGradientPanel1.Controls.Add(Guna2Separator1)
-        Guna2CustomGradientPanel1.Controls.Add(Guna2GradientButton4)
-        Guna2CustomGradientPanel1.Controls.Add(Guna2GradientButton3)
-        Guna2CustomGradientPanel1.Controls.Add(Guna2GradientButton2)
-        Guna2CustomGradientPanel1.Controls.Add(Guna2GradientButton1)
-        CustomizableEdges13.BottomLeft = False
-        CustomizableEdges13.TopLeft = False
-        Guna2CustomGradientPanel1.CustomizableEdges = CustomizableEdges13
+        Guna2CustomGradientPanel1.Controls.Add(SettingsButton)
+        Guna2CustomGradientPanel1.Controls.Add(AboutUsButton)
+        Guna2CustomGradientPanel1.Controls.Add(AppointmentButton)
+        Guna2CustomGradientPanel1.Controls.Add(DashboardButton)
+        CustomizableEdges29.BottomLeft = False
+        CustomizableEdges29.TopLeft = False
+        Guna2CustomGradientPanel1.CustomizableEdges = CustomizableEdges29
         Guna2CustomGradientPanel1.Dock = DockStyle.Left
         Guna2CustomGradientPanel1.FillColor = Color.FromArgb(CByte(50), CByte(250), CByte(150))
         Guna2CustomGradientPanel1.FillColor2 = Color.FromArgb(CByte(60), CByte(200), CByte(190))
@@ -211,92 +210,90 @@ Partial Class Dashboard
         Guna2CustomGradientPanel1.Name = "Guna2CustomGradientPanel1"
         Guna2CustomGradientPanel1.ShadowDecoration.BorderRadius = 30
         Guna2CustomGradientPanel1.ShadowDecoration.Color = Color.FromArgb(CByte(20), CByte(100), CByte(30))
-        CustomizableEdges14.BottomLeft = False
-        CustomizableEdges14.TopLeft = False
-        Guna2CustomGradientPanel1.ShadowDecoration.CustomizableEdges = CustomizableEdges14
+        CustomizableEdges30.BottomLeft = False
+        CustomizableEdges30.TopLeft = False
+        Guna2CustomGradientPanel1.ShadowDecoration.CustomizableEdges = CustomizableEdges30
         Guna2CustomGradientPanel1.ShadowDecoration.Depth = 50
         Guna2CustomGradientPanel1.ShadowDecoration.Enabled = True
         Guna2CustomGradientPanel1.ShadowDecoration.Shadow = New Padding(5, 5, 8, 8)
         Guna2CustomGradientPanel1.Size = New Size(267, 705)
         Guna2CustomGradientPanel1.TabIndex = 12
         ' 
-        ' Guna2GradientButton6
+        ' MedicinesButton
         ' 
-        Guna2GradientButton6.Animated = True
-        Guna2GradientButton6.AnimatedGIF = True
-        Guna2GradientButton6.AutoRoundedCorners = True
-        Guna2GradientButton6.BackColor = Color.Transparent
-        Guna2GradientButton6.BorderRadius = 34
-        Guna2GradientButton6.Cursor = Cursors.Hand
-        CustomizableEdges1.BottomLeft = False
-        CustomizableEdges1.TopLeft = False
-        Guna2GradientButton6.CustomizableEdges = CustomizableEdges1
-        Guna2GradientButton6.DisabledState.BorderColor = Color.DarkGray
-        Guna2GradientButton6.DisabledState.CustomBorderColor = Color.DarkGray
-        Guna2GradientButton6.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        Guna2GradientButton6.DisabledState.FillColor2 = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        Guna2GradientButton6.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        Guna2GradientButton6.FillColor = Color.Transparent
-        Guna2GradientButton6.FillColor2 = Color.Transparent
-        Guna2GradientButton6.Font = New Font("Segoe UI Semibold", 14F, FontStyle.Bold, GraphicsUnit.Point)
-        Guna2GradientButton6.ForeColor = Color.White
-        Guna2GradientButton6.HoverState.FillColor = Color.FromArgb(CByte(40), CByte(80), CByte(120))
-        Guna2GradientButton6.HoverState.FillColor2 = Color.FromArgb(CByte(50), CByte(230), CByte(160))
-        Guna2GradientButton6.Image = My.Resources.Resources.medicine
-        Guna2GradientButton6.ImageAlign = HorizontalAlignment.Left
-        Guna2GradientButton6.ImageOffset = New Point(10, 0)
-        Guna2GradientButton6.ImageSize = New Size(40, 40)
-        Guna2GradientButton6.Location = New Point(1, 190)
-        Guna2GradientButton6.Name = "Guna2GradientButton6"
-        Guna2GradientButton6.PressedColor = Color.FromArgb(CByte(128), CByte(255), CByte(128))
-        Guna2GradientButton6.RightToLeft = RightToLeft.No
-        Guna2GradientButton6.ShadowDecoration.CustomizableEdges = CustomizableEdges2
-        Guna2GradientButton6.Size = New Size(264, 70)
-        Guna2GradientButton6.TabIndex = 19
-        Guna2GradientButton6.Text = "Medicines"
-        Guna2GradientButton6.TextAlign = HorizontalAlignment.Right
-        Guna2GradientButton6.TextOffset = New Point(-10, 0)
-        Guna2GradientButton6.TextRenderingHint = Drawing.Text.TextRenderingHint.SingleBitPerPixelGridFit
-        Guna2GradientButton6.UseTransparentBackground = True
+        MedicinesButton.Animated = True
+        MedicinesButton.AnimatedGIF = True
+        MedicinesButton.AutoRoundedCorners = True
+        MedicinesButton.BackColor = Color.Transparent
+        MedicinesButton.BorderRadius = 34
+        MedicinesButton.Cursor = Cursors.Hand
+        CustomizableEdges17.BottomLeft = False
+        CustomizableEdges17.TopLeft = False
+        MedicinesButton.CustomizableEdges = CustomizableEdges17
+        MedicinesButton.DisabledState.FillColor = Color.FromArgb(CByte(40), CByte(80), CByte(120))
+        MedicinesButton.DisabledState.FillColor2 = Color.FromArgb(CByte(50), CByte(230), CByte(160))
+        MedicinesButton.DisabledState.ForeColor = Color.White
+        MedicinesButton.FillColor = Color.Transparent
+        MedicinesButton.FillColor2 = Color.Transparent
+        MedicinesButton.Font = New Font("Segoe UI Semibold", 14F, FontStyle.Bold, GraphicsUnit.Point)
+        MedicinesButton.ForeColor = Color.White
+        MedicinesButton.HoverState.FillColor = Color.FromArgb(CByte(40), CByte(80), CByte(120))
+        MedicinesButton.HoverState.FillColor2 = Color.FromArgb(CByte(50), CByte(230), CByte(160))
+        MedicinesButton.Image = My.Resources.Resources.medicine
+        MedicinesButton.ImageAlign = HorizontalAlignment.Left
+        MedicinesButton.ImageOffset = New Point(10, 0)
+        MedicinesButton.ImageSize = New Size(40, 40)
+        MedicinesButton.Location = New Point(1, 190)
+        MedicinesButton.Name = "MedicinesButton"
+        MedicinesButton.PressedColor = Color.FromArgb(CByte(128), CByte(255), CByte(128))
+        MedicinesButton.RightToLeft = RightToLeft.No
+        MedicinesButton.ShadowDecoration.CustomizableEdges = CustomizableEdges18
+        MedicinesButton.Size = New Size(264, 70)
+        MedicinesButton.TabIndex = 19
+        MedicinesButton.Text = "Medicines"
+        MedicinesButton.TextAlign = HorizontalAlignment.Right
+        MedicinesButton.TextOffset = New Point(-10, 0)
+        MedicinesButton.TextRenderingHint = Drawing.Text.TextRenderingHint.SingleBitPerPixelGridFit
+        MedicinesButton.UseTransparentBackground = True
         ' 
-        ' Guna2GradientButton5
+        ' LogoutButton
         ' 
-        Guna2GradientButton5.Animated = True
-        Guna2GradientButton5.AnimatedGIF = True
-        Guna2GradientButton5.AutoRoundedCorners = True
-        Guna2GradientButton5.BackColor = Color.Transparent
-        Guna2GradientButton5.BorderRadius = 29
-        Guna2GradientButton5.Cursor = Cursors.Hand
-        CustomizableEdges3.BottomLeft = False
-        CustomizableEdges3.TopRight = False
-        Guna2GradientButton5.CustomizableEdges = CustomizableEdges3
-        Guna2GradientButton5.DisabledState.BorderColor = Color.DarkGray
-        Guna2GradientButton5.DisabledState.CustomBorderColor = Color.DarkGray
-        Guna2GradientButton5.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        Guna2GradientButton5.DisabledState.FillColor2 = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        Guna2GradientButton5.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        Guna2GradientButton5.FillColor = Color.Transparent
-        Guna2GradientButton5.FillColor2 = Color.Transparent
-        Guna2GradientButton5.Font = New Font("Segoe UI Semibold", 14F, FontStyle.Bold, GraphicsUnit.Point)
-        Guna2GradientButton5.ForeColor = Color.White
-        Guna2GradientButton5.HoverState.FillColor = Color.FromArgb(CByte(40), CByte(80), CByte(120))
-        Guna2GradientButton5.HoverState.FillColor2 = Color.FromArgb(CByte(50), CByte(230), CByte(160))
-        Guna2GradientButton5.Image = My.Resources.Resources.icons8_logout_64
-        Guna2GradientButton5.ImageAlign = HorizontalAlignment.Left
-        Guna2GradientButton5.ImageOffset = New Point(15, 0)
-        Guna2GradientButton5.ImageSize = New Size(45, 45)
-        Guna2GradientButton5.Location = New Point(26, 572)
-        Guna2GradientButton5.Name = "Guna2GradientButton5"
-        Guna2GradientButton5.PressedColor = Color.FromArgb(CByte(128), CByte(128), CByte(255))
-        Guna2GradientButton5.RightToLeft = RightToLeft.No
-        Guna2GradientButton5.ShadowDecoration.CustomizableEdges = CustomizableEdges4
-        Guna2GradientButton5.Size = New Size(215, 61)
-        Guna2GradientButton5.TabIndex = 18
-        Guna2GradientButton5.Text = "Logout"
-        Guna2GradientButton5.TextAlign = HorizontalAlignment.Right
-        Guna2GradientButton5.TextOffset = New Point(-10, 0)
-        Guna2GradientButton5.TextRenderingHint = Drawing.Text.TextRenderingHint.SingleBitPerPixelGridFit
-        Guna2GradientButton5.UseTransparentBackground = True
+        LogoutButton.Animated = True
+        LogoutButton.AnimatedGIF = True
+        LogoutButton.AutoRoundedCorners = True
+        LogoutButton.BackColor = Color.Transparent
+        LogoutButton.BorderRadius = 29
+        LogoutButton.Cursor = Cursors.Hand
+        CustomizableEdges19.BottomLeft = False
+        CustomizableEdges19.TopRight = False
+        LogoutButton.CustomizableEdges = CustomizableEdges19
+        LogoutButton.DisabledState.BorderColor = Color.DarkGray
+        LogoutButton.DisabledState.CustomBorderColor = Color.DarkGray
+        LogoutButton.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        LogoutButton.DisabledState.FillColor2 = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        LogoutButton.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        LogoutButton.FillColor = Color.Transparent
+        LogoutButton.FillColor2 = Color.Transparent
+        LogoutButton.Font = New Font("Segoe UI Semibold", 14F, FontStyle.Bold, GraphicsUnit.Point)
+        LogoutButton.ForeColor = Color.White
+        LogoutButton.HoverState.FillColor = Color.FromArgb(CByte(40), CByte(80), CByte(120))
+        LogoutButton.HoverState.FillColor2 = Color.FromArgb(CByte(50), CByte(230), CByte(160))
+        LogoutButton.Image = My.Resources.Resources.icons8_logout_64
+        LogoutButton.ImageAlign = HorizontalAlignment.Left
+        LogoutButton.ImageOffset = New Point(15, 0)
+        LogoutButton.ImageSize = New Size(45, 45)
+        LogoutButton.Location = New Point(26, 572)
+        LogoutButton.Name = "LogoutButton"
+        LogoutButton.PressedColor = Color.FromArgb(CByte(128), CByte(128), CByte(255))
+        LogoutButton.RightToLeft = RightToLeft.No
+        LogoutButton.ShadowDecoration.CustomizableEdges = CustomizableEdges20
+        LogoutButton.Size = New Size(215, 61)
+        LogoutButton.TabIndex = 18
+        LogoutButton.Text = "Logout"
+        LogoutButton.TextAlign = HorizontalAlignment.Right
+        LogoutButton.TextOffset = New Point(-10, 0)
+        LogoutButton.TextRenderingHint = Drawing.Text.TextRenderingHint.SingleBitPerPixelGridFit
+        LogoutButton.UseTransparentBackground = True
         ' 
         ' Guna2Separator1
         ' 
@@ -308,161 +305,153 @@ Partial Class Dashboard
         Guna2Separator1.TabIndex = 17
         Guna2Separator1.UseTransparentBackground = True
         ' 
-        ' Guna2GradientButton4
+        ' SettingsButton
         ' 
-        Guna2GradientButton4.Animated = True
-        Guna2GradientButton4.AnimatedGIF = True
-        Guna2GradientButton4.AutoRoundedCorners = True
-        Guna2GradientButton4.BackColor = Color.Transparent
-        Guna2GradientButton4.BorderRadius = 34
-        Guna2GradientButton4.Cursor = Cursors.Hand
-        CustomizableEdges5.BottomLeft = False
-        CustomizableEdges5.TopLeft = False
-        Guna2GradientButton4.CustomizableEdges = CustomizableEdges5
-        Guna2GradientButton4.DisabledState.BorderColor = Color.DarkGray
-        Guna2GradientButton4.DisabledState.CustomBorderColor = Color.DarkGray
-        Guna2GradientButton4.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        Guna2GradientButton4.DisabledState.FillColor2 = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        Guna2GradientButton4.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        Guna2GradientButton4.FillColor = Color.Transparent
-        Guna2GradientButton4.FillColor2 = Color.Transparent
-        Guna2GradientButton4.Font = New Font("Segoe UI Semibold", 14F, FontStyle.Bold, GraphicsUnit.Point)
-        Guna2GradientButton4.ForeColor = Color.White
-        Guna2GradientButton4.HoverState.FillColor = Color.FromArgb(CByte(40), CByte(80), CByte(120))
-        Guna2GradientButton4.HoverState.FillColor2 = Color.FromArgb(CByte(50), CByte(230), CByte(160))
-        Guna2GradientButton4.Image = My.Resources.Resources.icons8_settings_64
-        Guna2GradientButton4.ImageAlign = HorizontalAlignment.Left
-        Guna2GradientButton4.ImageOffset = New Point(10, 0)
-        Guna2GradientButton4.ImageSize = New Size(45, 45)
-        Guna2GradientButton4.Location = New Point(0, 400)
-        Guna2GradientButton4.Name = "Guna2GradientButton4"
-        Guna2GradientButton4.PressedColor = Color.FromArgb(CByte(128), CByte(255), CByte(128))
-        Guna2GradientButton4.RightToLeft = RightToLeft.No
-        Guna2GradientButton4.ShadowDecoration.CustomizableEdges = CustomizableEdges6
-        Guna2GradientButton4.Size = New Size(264, 70)
-        Guna2GradientButton4.TabIndex = 16
-        Guna2GradientButton4.Text = "Settings"
-        Guna2GradientButton4.TextAlign = HorizontalAlignment.Right
-        Guna2GradientButton4.TextOffset = New Point(-10, 0)
-        Guna2GradientButton4.TextRenderingHint = Drawing.Text.TextRenderingHint.SingleBitPerPixelGridFit
-        Guna2GradientButton4.UseTransparentBackground = True
+        SettingsButton.Animated = True
+        SettingsButton.AnimatedGIF = True
+        SettingsButton.AutoRoundedCorners = True
+        SettingsButton.BackColor = Color.Transparent
+        SettingsButton.BorderRadius = 34
+        SettingsButton.Cursor = Cursors.Hand
+        CustomizableEdges21.BottomLeft = False
+        CustomizableEdges21.TopLeft = False
+        SettingsButton.CustomizableEdges = CustomizableEdges21
+        SettingsButton.DisabledState.FillColor = Color.FromArgb(CByte(40), CByte(80), CByte(120))
+        SettingsButton.DisabledState.FillColor2 = Color.FromArgb(CByte(50), CByte(230), CByte(160))
+        SettingsButton.DisabledState.ForeColor = Color.White
+        SettingsButton.FillColor = Color.Transparent
+        SettingsButton.FillColor2 = Color.Transparent
+        SettingsButton.Font = New Font("Segoe UI Semibold", 14F, FontStyle.Bold, GraphicsUnit.Point)
+        SettingsButton.ForeColor = Color.White
+        SettingsButton.HoverState.FillColor = Color.FromArgb(CByte(40), CByte(80), CByte(120))
+        SettingsButton.HoverState.FillColor2 = Color.FromArgb(CByte(50), CByte(230), CByte(160))
+        SettingsButton.Image = My.Resources.Resources.icons8_settings_64
+        SettingsButton.ImageAlign = HorizontalAlignment.Left
+        SettingsButton.ImageOffset = New Point(10, 0)
+        SettingsButton.ImageSize = New Size(45, 45)
+        SettingsButton.Location = New Point(0, 400)
+        SettingsButton.Name = "SettingsButton"
+        SettingsButton.PressedColor = Color.FromArgb(CByte(128), CByte(255), CByte(128))
+        SettingsButton.RightToLeft = RightToLeft.No
+        SettingsButton.ShadowDecoration.CustomizableEdges = CustomizableEdges22
+        SettingsButton.Size = New Size(264, 70)
+        SettingsButton.TabIndex = 16
+        SettingsButton.Text = "Settings"
+        SettingsButton.TextAlign = HorizontalAlignment.Right
+        SettingsButton.TextOffset = New Point(-10, 0)
+        SettingsButton.TextRenderingHint = Drawing.Text.TextRenderingHint.SingleBitPerPixelGridFit
+        SettingsButton.UseTransparentBackground = True
         ' 
-        ' Guna2GradientButton3
+        ' AboutUsButton
         ' 
-        Guna2GradientButton3.Animated = True
-        Guna2GradientButton3.AnimatedGIF = True
-        Guna2GradientButton3.AutoRoundedCorners = True
-        Guna2GradientButton3.BackColor = Color.Transparent
-        Guna2GradientButton3.BorderRadius = 34
-        Guna2GradientButton3.Cursor = Cursors.Hand
-        CustomizableEdges7.BottomLeft = False
-        CustomizableEdges7.TopLeft = False
-        Guna2GradientButton3.CustomizableEdges = CustomizableEdges7
-        Guna2GradientButton3.DisabledState.BorderColor = Color.DarkGray
-        Guna2GradientButton3.DisabledState.CustomBorderColor = Color.DarkGray
-        Guna2GradientButton3.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        Guna2GradientButton3.DisabledState.FillColor2 = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        Guna2GradientButton3.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        Guna2GradientButton3.FillColor = Color.Transparent
-        Guna2GradientButton3.FillColor2 = Color.Transparent
-        Guna2GradientButton3.Font = New Font("Segoe UI Semibold", 14F, FontStyle.Bold, GraphicsUnit.Point)
-        Guna2GradientButton3.ForeColor = Color.White
-        Guna2GradientButton3.HoverState.FillColor = Color.FromArgb(CByte(40), CByte(80), CByte(120))
-        Guna2GradientButton3.HoverState.FillColor2 = Color.FromArgb(CByte(50), CByte(230), CByte(160))
-        Guna2GradientButton3.Image = My.Resources.Resources.icons8_about_us_96
-        Guna2GradientButton3.ImageAlign = HorizontalAlignment.Left
-        Guna2GradientButton3.ImageOffset = New Point(10, 0)
-        Guna2GradientButton3.ImageSize = New Size(40, 40)
-        Guna2GradientButton3.Location = New Point(0, 330)
-        Guna2GradientButton3.Name = "Guna2GradientButton3"
-        Guna2GradientButton3.PressedColor = Color.FromArgb(CByte(128), CByte(255), CByte(128))
-        Guna2GradientButton3.RightToLeft = RightToLeft.No
-        Guna2GradientButton3.ShadowDecoration.CustomizableEdges = CustomizableEdges8
-        Guna2GradientButton3.Size = New Size(264, 70)
-        Guna2GradientButton3.TabIndex = 15
-        Guna2GradientButton3.Text = "About Us"
-        Guna2GradientButton3.TextAlign = HorizontalAlignment.Right
-        Guna2GradientButton3.TextOffset = New Point(-10, 0)
-        Guna2GradientButton3.TextRenderingHint = Drawing.Text.TextRenderingHint.SingleBitPerPixelGridFit
-        Guna2GradientButton3.UseTransparentBackground = True
+        AboutUsButton.Animated = True
+        AboutUsButton.AnimatedGIF = True
+        AboutUsButton.AutoRoundedCorners = True
+        AboutUsButton.BackColor = Color.Transparent
+        AboutUsButton.BorderRadius = 34
+        AboutUsButton.Cursor = Cursors.Hand
+        CustomizableEdges23.BottomLeft = False
+        CustomizableEdges23.TopLeft = False
+        AboutUsButton.CustomizableEdges = CustomizableEdges23
+        AboutUsButton.DisabledState.FillColor = Color.FromArgb(CByte(40), CByte(80), CByte(120))
+        AboutUsButton.DisabledState.FillColor2 = Color.FromArgb(CByte(50), CByte(230), CByte(160))
+        AboutUsButton.DisabledState.ForeColor = Color.White
+        AboutUsButton.FillColor = Color.Transparent
+        AboutUsButton.FillColor2 = Color.Transparent
+        AboutUsButton.Font = New Font("Segoe UI Semibold", 14F, FontStyle.Bold, GraphicsUnit.Point)
+        AboutUsButton.ForeColor = Color.White
+        AboutUsButton.HoverState.FillColor = Color.FromArgb(CByte(40), CByte(80), CByte(120))
+        AboutUsButton.HoverState.FillColor2 = Color.FromArgb(CByte(50), CByte(230), CByte(160))
+        AboutUsButton.Image = My.Resources.Resources.icons8_about_us_96
+        AboutUsButton.ImageAlign = HorizontalAlignment.Left
+        AboutUsButton.ImageOffset = New Point(10, 0)
+        AboutUsButton.ImageSize = New Size(40, 40)
+        AboutUsButton.Location = New Point(0, 330)
+        AboutUsButton.Name = "AboutUsButton"
+        AboutUsButton.PressedColor = Color.FromArgb(CByte(128), CByte(255), CByte(128))
+        AboutUsButton.RightToLeft = RightToLeft.No
+        AboutUsButton.ShadowDecoration.CustomizableEdges = CustomizableEdges24
+        AboutUsButton.Size = New Size(264, 70)
+        AboutUsButton.TabIndex = 15
+        AboutUsButton.Text = "About Us"
+        AboutUsButton.TextAlign = HorizontalAlignment.Right
+        AboutUsButton.TextOffset = New Point(-10, 0)
+        AboutUsButton.TextRenderingHint = Drawing.Text.TextRenderingHint.SingleBitPerPixelGridFit
+        AboutUsButton.UseTransparentBackground = True
         ' 
-        ' Guna2GradientButton2
+        ' AppointmentButton
         ' 
-        Guna2GradientButton2.Animated = True
-        Guna2GradientButton2.AnimatedGIF = True
-        Guna2GradientButton2.AutoRoundedCorners = True
-        Guna2GradientButton2.BackColor = Color.Transparent
-        Guna2GradientButton2.BorderRadius = 34
-        Guna2GradientButton2.Cursor = Cursors.Hand
-        CustomizableEdges9.BottomLeft = False
-        CustomizableEdges9.TopLeft = False
-        Guna2GradientButton2.CustomizableEdges = CustomizableEdges9
-        Guna2GradientButton2.DisabledState.BorderColor = Color.DarkGray
-        Guna2GradientButton2.DisabledState.CustomBorderColor = Color.DarkGray
-        Guna2GradientButton2.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        Guna2GradientButton2.DisabledState.FillColor2 = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        Guna2GradientButton2.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        Guna2GradientButton2.FillColor = Color.Transparent
-        Guna2GradientButton2.FillColor2 = Color.Transparent
-        Guna2GradientButton2.Font = New Font("Segoe UI Semibold", 14F, FontStyle.Bold, GraphicsUnit.Point)
-        Guna2GradientButton2.ForeColor = Color.White
-        Guna2GradientButton2.HoverState.FillColor = Color.FromArgb(CByte(40), CByte(80), CByte(120))
-        Guna2GradientButton2.HoverState.FillColor2 = Color.FromArgb(CByte(50), CByte(230), CByte(160))
-        Guna2GradientButton2.Image = My.Resources.Resources.icons8_health_calendar_64
-        Guna2GradientButton2.ImageAlign = HorizontalAlignment.Left
-        Guna2GradientButton2.ImageOffset = New Point(10, 0)
-        Guna2GradientButton2.ImageSize = New Size(45, 45)
-        Guna2GradientButton2.Location = New Point(0, 260)
-        Guna2GradientButton2.Name = "Guna2GradientButton2"
-        Guna2GradientButton2.PressedColor = Color.FromArgb(CByte(128), CByte(255), CByte(128))
-        Guna2GradientButton2.RightToLeft = RightToLeft.No
-        Guna2GradientButton2.ShadowDecoration.CustomizableEdges = CustomizableEdges10
-        Guna2GradientButton2.Size = New Size(264, 70)
-        Guna2GradientButton2.TabIndex = 14
-        Guna2GradientButton2.Text = "Appointment"
-        Guna2GradientButton2.TextAlign = HorizontalAlignment.Right
-        Guna2GradientButton2.TextOffset = New Point(-10, 0)
-        Guna2GradientButton2.TextRenderingHint = Drawing.Text.TextRenderingHint.SingleBitPerPixelGridFit
-        Guna2GradientButton2.UseTransparentBackground = True
+        AppointmentButton.Animated = True
+        AppointmentButton.AnimatedGIF = True
+        AppointmentButton.AutoRoundedCorners = True
+        AppointmentButton.BackColor = Color.Transparent
+        AppointmentButton.BorderRadius = 34
+        AppointmentButton.Cursor = Cursors.Hand
+        CustomizableEdges25.BottomLeft = False
+        CustomizableEdges25.TopLeft = False
+        AppointmentButton.CustomizableEdges = CustomizableEdges25
+        AppointmentButton.DisabledState.FillColor = Color.FromArgb(CByte(40), CByte(80), CByte(120))
+        AppointmentButton.DisabledState.FillColor2 = Color.FromArgb(CByte(50), CByte(230), CByte(160))
+        AppointmentButton.DisabledState.ForeColor = Color.White
+        AppointmentButton.FillColor = Color.Transparent
+        AppointmentButton.FillColor2 = Color.Transparent
+        AppointmentButton.Font = New Font("Segoe UI Semibold", 14F, FontStyle.Bold, GraphicsUnit.Point)
+        AppointmentButton.ForeColor = Color.White
+        AppointmentButton.HoverState.FillColor = Color.FromArgb(CByte(40), CByte(80), CByte(120))
+        AppointmentButton.HoverState.FillColor2 = Color.FromArgb(CByte(50), CByte(230), CByte(160))
+        AppointmentButton.Image = My.Resources.Resources.icons8_health_calendar_64
+        AppointmentButton.ImageAlign = HorizontalAlignment.Left
+        AppointmentButton.ImageOffset = New Point(10, 0)
+        AppointmentButton.ImageSize = New Size(45, 45)
+        AppointmentButton.Location = New Point(0, 260)
+        AppointmentButton.Name = "AppointmentButton"
+        AppointmentButton.PressedColor = Color.FromArgb(CByte(128), CByte(255), CByte(128))
+        AppointmentButton.RightToLeft = RightToLeft.No
+        AppointmentButton.ShadowDecoration.CustomizableEdges = CustomizableEdges26
+        AppointmentButton.Size = New Size(264, 70)
+        AppointmentButton.TabIndex = 14
+        AppointmentButton.Text = "Appointment"
+        AppointmentButton.TextAlign = HorizontalAlignment.Right
+        AppointmentButton.TextOffset = New Point(-10, 0)
+        AppointmentButton.TextRenderingHint = Drawing.Text.TextRenderingHint.SingleBitPerPixelGridFit
+        AppointmentButton.UseTransparentBackground = True
         ' 
-        ' Guna2GradientButton1
+        ' DashboardButton
         ' 
-        Guna2GradientButton1.Animated = True
-        Guna2GradientButton1.AnimatedGIF = True
-        Guna2GradientButton1.AutoRoundedCorners = True
-        Guna2GradientButton1.BackColor = Color.Transparent
-        Guna2GradientButton1.BorderRadius = 34
-        Guna2GradientButton1.Cursor = Cursors.Hand
-        CustomizableEdges11.BottomLeft = False
-        CustomizableEdges11.TopLeft = False
-        Guna2GradientButton1.CustomizableEdges = CustomizableEdges11
-        Guna2GradientButton1.DisabledState.BorderColor = Color.DarkGray
-        Guna2GradientButton1.DisabledState.CustomBorderColor = Color.DarkGray
-        Guna2GradientButton1.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        Guna2GradientButton1.DisabledState.FillColor2 = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        Guna2GradientButton1.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        Guna2GradientButton1.FillColor = Color.Transparent
-        Guna2GradientButton1.FillColor2 = Color.Transparent
-        Guna2GradientButton1.Font = New Font("Segoe UI Semibold", 14F, FontStyle.Bold, GraphicsUnit.Point)
-        Guna2GradientButton1.ForeColor = Color.White
-        Guna2GradientButton1.HoverState.FillColor = Color.FromArgb(CByte(40), CByte(80), CByte(120))
-        Guna2GradientButton1.HoverState.FillColor2 = Color.FromArgb(CByte(50), CByte(230), CByte(160))
-        Guna2GradientButton1.Image = My.Resources.Resources.icons8_dashboard_layout_96
-        Guna2GradientButton1.ImageAlign = HorizontalAlignment.Left
-        Guna2GradientButton1.ImageOffset = New Point(10, 0)
-        Guna2GradientButton1.ImageSize = New Size(40, 40)
-        Guna2GradientButton1.Location = New Point(0, 120)
-        Guna2GradientButton1.Name = "Guna2GradientButton1"
-        Guna2GradientButton1.PressedColor = Color.FromArgb(CByte(128), CByte(255), CByte(128))
-        Guna2GradientButton1.RightToLeft = RightToLeft.No
-        Guna2GradientButton1.ShadowDecoration.CustomizableEdges = CustomizableEdges12
-        Guna2GradientButton1.Size = New Size(264, 70)
-        Guna2GradientButton1.TabIndex = 13
-        Guna2GradientButton1.Text = "Dashboard"
-        Guna2GradientButton1.TextAlign = HorizontalAlignment.Right
-        Guna2GradientButton1.TextOffset = New Point(-10, 0)
-        Guna2GradientButton1.TextRenderingHint = Drawing.Text.TextRenderingHint.SingleBitPerPixelGridFit
-        Guna2GradientButton1.UseTransparentBackground = True
+        DashboardButton.Animated = True
+        DashboardButton.AnimatedGIF = True
+        DashboardButton.AutoRoundedCorners = True
+        DashboardButton.BackColor = Color.Transparent
+        DashboardButton.BorderRadius = 34
+        DashboardButton.Cursor = Cursors.Hand
+        CustomizableEdges27.BottomLeft = False
+        CustomizableEdges27.TopLeft = False
+        DashboardButton.CustomizableEdges = CustomizableEdges27
+        DashboardButton.DisabledState.FillColor = Color.FromArgb(CByte(40), CByte(80), CByte(120))
+        DashboardButton.DisabledState.FillColor2 = Color.FromArgb(CByte(50), CByte(230), CByte(160))
+        DashboardButton.DisabledState.ForeColor = Color.White
+        DashboardButton.FillColor = Color.Transparent
+        DashboardButton.FillColor2 = Color.Transparent
+        DashboardButton.Font = New Font("Segoe UI Semibold", 14F, FontStyle.Bold, GraphicsUnit.Point)
+        DashboardButton.ForeColor = Color.White
+        DashboardButton.HoverState.FillColor = Color.FromArgb(CByte(40), CByte(80), CByte(120))
+        DashboardButton.HoverState.FillColor2 = Color.FromArgb(CByte(50), CByte(230), CByte(160))
+        DashboardButton.Image = My.Resources.Resources.icons8_dashboard_layout_96
+        DashboardButton.ImageAlign = HorizontalAlignment.Left
+        DashboardButton.ImageOffset = New Point(10, 0)
+        DashboardButton.ImageSize = New Size(40, 40)
+        DashboardButton.Location = New Point(0, 120)
+        DashboardButton.Name = "DashboardButton"
+        DashboardButton.PressedColor = Color.FromArgb(CByte(128), CByte(255), CByte(128))
+        DashboardButton.RightToLeft = RightToLeft.No
+        DashboardButton.ShadowDecoration.CustomizableEdges = CustomizableEdges28
+        DashboardButton.Size = New Size(264, 70)
+        DashboardButton.TabIndex = 13
+        DashboardButton.Text = "Dashboard"
+        DashboardButton.TextAlign = HorizontalAlignment.Right
+        DashboardButton.TextOffset = New Point(-10, 0)
+        DashboardButton.TextRenderingHint = Drawing.Text.TextRenderingHint.SingleBitPerPixelGridFit
+        DashboardButton.UseTransparentBackground = True
         ' 
         ' Guna2vSeparator1
         ' 
@@ -479,29 +468,14 @@ Partial Class Dashboard
         ' Guna2Panel1
         ' 
         Guna2Panel1.BackColor = Color.Transparent
-        Guna2Panel1.CustomizableEdges = CustomizableEdges15
+        Guna2Panel1.CustomizableEdges = CustomizableEdges31
         Guna2Panel1.FillColor = Color.Transparent
         Guna2Panel1.Location = New Point(301, 12)
         Guna2Panel1.Name = "Guna2Panel1"
-        Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges16
+        Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges32
         Guna2Panel1.Size = New Size(960, 680)
         Guna2Panel1.TabIndex = 14
         Guna2Panel1.UseTransparentBackground = True
-        ' 
-        ' Guna2ContextMenuStrip1
-        ' 
-        Guna2ContextMenuStrip1.ImageScalingSize = New Size(20, 20)
-        Guna2ContextMenuStrip1.Name = "Guna2ContextMenuStrip1"
-        Guna2ContextMenuStrip1.RenderStyle.ArrowColor = Color.FromArgb(CByte(151), CByte(143), CByte(255))
-        Guna2ContextMenuStrip1.RenderStyle.BorderColor = Color.Gainsboro
-        Guna2ContextMenuStrip1.RenderStyle.ColorTable = Nothing
-        Guna2ContextMenuStrip1.RenderStyle.RoundedEdges = True
-        Guna2ContextMenuStrip1.RenderStyle.SelectionArrowColor = Color.White
-        Guna2ContextMenuStrip1.RenderStyle.SelectionBackColor = Color.FromArgb(CByte(100), CByte(88), CByte(255))
-        Guna2ContextMenuStrip1.RenderStyle.SelectionForeColor = Color.White
-        Guna2ContextMenuStrip1.RenderStyle.SeparatorColor = Color.Gainsboro
-        Guna2ContextMenuStrip1.RenderStyle.TextRenderingHint = Drawing.Text.TextRenderingHint.SystemDefault
-        Guna2ContextMenuStrip1.Size = New Size(61, 4)
         ' 
         ' Dashboard
         ' 
@@ -533,14 +507,13 @@ Partial Class Dashboard
     Friend WithEvents Label4 As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents Guna2CustomGradientPanel1 As Guna.UI2.WinForms.Guna2CustomGradientPanel
-    Friend WithEvents Guna2GradientButton1 As Guna.UI2.WinForms.Guna2GradientButton
-    Friend WithEvents Guna2GradientButton3 As Guna.UI2.WinForms.Guna2GradientButton
-    Friend WithEvents Guna2GradientButton2 As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents DashboardButton As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents AboutUsButton As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents AppointmentButton As Guna.UI2.WinForms.Guna2GradientButton
     Friend WithEvents Guna2vSeparator1 As Guna.UI2.WinForms.Guna2VSeparator
     Friend WithEvents Guna2Separator1 As Guna.UI2.WinForms.Guna2Separator
-    Friend WithEvents Guna2GradientButton4 As Guna.UI2.WinForms.Guna2GradientButton
-    Friend WithEvents Guna2GradientButton5 As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents SettingsButton As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents LogoutButton As Guna.UI2.WinForms.Guna2GradientButton
     Friend WithEvents Guna2Panel1 As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents Guna2GradientButton6 As Guna.UI2.WinForms.Guna2GradientButton
-    Friend WithEvents Guna2ContextMenuStrip1 As Guna.UI2.WinForms.Guna2ContextMenuStrip
+    Friend WithEvents MedicinesButton As Guna.UI2.WinForms.Guna2GradientButton
 End Class

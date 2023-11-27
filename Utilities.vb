@@ -9,13 +9,11 @@ Module Module1
     Public mongodb As New DatabaseClass()
 
     Public Sub Switch_Panel(ByVal panel As Panel, ByVal form As Form)
-        While panel.Controls.Count > 0
-            panel.Controls(0).Dispose()
-        End While
+        panel.Controls.Clear()
         form.Show()
         form.TopLevel = False
-        form.Location = New Point((panel.Width - form.Width) / 2, (panel.Height - form.Height) / 2)
         panel.Controls.Add(form)
+        form.Location = New Point((panel.Width - form.Width) / 2, (panel.Height - form.Height) / 2)
         form.Refresh()
     End Sub
 

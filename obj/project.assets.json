@@ -919,19 +919,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Suman Das\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Suman Das\\OneDrive - dynamic techno\\Desktop\\VBProject\\HealthGuru\\HealthGuru.vbproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\VisualStudioProjects\\HealthGuru\\HealthGuru.vbproj",
       "projectName": "HealthGuru",
-      "projectPath": "C:\\Users\\Suman Das\\OneDrive - dynamic techno\\Desktop\\VBProject\\HealthGuru\\HealthGuru.vbproj",
-      "packagesPath": "C:\\Users\\Suman Das\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Suman Das\\OneDrive - dynamic techno\\Desktop\\VBProject\\HealthGuru\\obj\\",
+      "projectPath": "C:\\Users\\User\\Desktop\\VisualStudioProjects\\HealthGuru\\HealthGuru.vbproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\VisualStudioProjects\\HealthGuru\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Suman Das\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -989,7 +989,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

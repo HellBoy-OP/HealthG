@@ -1,8 +1,27 @@
-﻿
-Imports MongoDB.Bson
+﻿Imports MongoDB.Bson
 
 Public Class Dashboard
-    Private Async Sub Guna2GradientButton5_Click(sender As Object, e As EventArgs) Handles Guna2GradientButton5.Click
+    Private is_clicked As New Dictionary(Of Object, Boolean)
+
+    Private Sub Dashboard_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        is_clicked.Add(DashboardButton, True)
+        is_clicked.Add(MedicinesButton, False)
+        is_clicked.Add(AppointmentButton, False)
+        is_clicked.Add(AboutUsButton, False)
+        is_clicked.Add(SettingsButton, False)
+        Switch_Panel(Guna2Panel1, Home)
+    End Sub
+
+    Private Sub UpdateClickedData(button As Object)
+        is_clicked(button) = True
+        For Each clicked In is_clicked.Keys
+            If clicked IsNot button Then
+                is_clicked(button) = False
+            End If
+        Next
+    End Sub
+
+    Private Async Sub LogoutButton_Click(sender As Object, e As EventArgs) Handles LogoutButton.Click
         ' Handles Logout Button
         Dim phone As String = PresentUserData.Item("phone")
         Dim currUser As BsonDocument = Await mongodb.GetUser("phone", phone)
@@ -15,15 +34,36 @@ Public Class Dashboard
         PresentUserData.Clear()
     End Sub
 
-    Private Sub Guna2GradientButton2_Click(sender As Object, e As EventArgs) Handles Guna2GradientButton2.Click
+    Private Sub AppointmentButton_Click(sender As Object, e As EventArgs) Handles AppointmentButton.Click
         ' Handles Appointment button
         Switch_Panel(Guna2Panel1, Appointment)
+        UpdateClickedData(AppointmentButton)
     End Sub
+
+    Private Sub MedicinesButton_Click(sender As Object, e As EventArgs) Handles MedicinesButton.Click
+        Switch_Panel(Guna2Panel1, Medicines)
+        UpdateClickedData(MedicinesButton)
+    End Sub
+
+    Private Sub DashboardButton_Click(sender As Object, e As EventArgs) Handles DashboardButton.Click
+        Switch_Panel(Guna2Panel1, Home)
+        UpdateClickedData(DashboardButton)
+    End Sub
+
+    Private Sub AboutUsButton_Click(sender As Object, e As EventArgs) Handles AboutUsButton.Click
+        Switch_Panel(Guna2Panel1, AboutUs)
+        UpdateClickedData(AboutUsButton)
+    End Sub
+
+    Private Sub SettingsButton_Click(sender As Object, e As EventArgs) Handles SettingsButton.Click
+        Switch_Panel(Guna2Panel1, Settings)
+        UpdateClickedData(SettingsButton)
+    End Sub
+
 End Class
 
 
 
-'Private is_clicked As New Dictionary(Of Button, Boolean)
 
 'Private Sub Button_MouseEnter(sender As Object, e As EventArgs) Handles Button1.MouseEnter, Button2.MouseEnter, Button3.MouseEnter, Button4.MouseEnter
 '    Dim entered_button As Button = DirectCast(sender, Button)

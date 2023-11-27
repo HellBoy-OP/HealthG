@@ -17,7 +17,6 @@ C:\Users\User\Desktop\VisualStudioProjects\HealthGuru\obj\Debug\net7.0-windows\r
 C:\Users\User\Desktop\VisualStudioProjects\HealthGuru\obj\Debug\net7.0-windows\HealthGuru.Resources.resources
 C:\Users\User\Desktop\VisualStudioProjects\HealthGuru\obj\Debug\net7.0-windows\HealthGuru.Home.resources
 C:\Users\User\Desktop\VisualStudioProjects\HealthGuru\obj\Debug\net7.0-windows\HealthGuru.Appointment.resources
-C:\Users\User\Desktop\VisualStudioProjects\HealthGuru\obj\Debug\net7.0-windows\HealthGuru.ContactUs.resources
 C:\Users\User\Desktop\VisualStudioProjects\HealthGuru\obj\Debug\net7.0-windows\HealthGuru.vbproj.AssemblyReference.cache
 C:\Users\User\Desktop\VisualStudioProjects\HealthGuru\obj\Debug\net7.0-windows\HealthGuru.vbproj.CopyComplete
 C:\Users\User\Desktop\VisualStudioProjects\HealthGuru\bin\Debug\net7.0-windows\HealthGuru.dll.config
@@ -219,3 +218,6 @@ C:\Users\Suman Das\OneDrive - dynamic techno\Desktop\VBProject\HealthGuru\obj\De
 C:\Users\Suman Das\OneDrive - dynamic techno\Desktop\VBProject\HealthGuru\obj\Debug\net7.0-windows\HealthGuru.pdb
 C:\Users\Suman Das\OneDrive - dynamic techno\Desktop\VBProject\HealthGuru\obj\Debug\net7.0-windows\HealthGuru.genruntimeconfig.cache
 C:\Users\Suman Das\OneDrive - dynamic techno\Desktop\VBProject\HealthGuru\obj\Debug\net7.0-windows\ref\HealthGuru.dll
+C:\Users\User\Desktop\VisualStudioProjects\HealthGuru\obj\Debug\net7.0-windows\HealthGuru.Medicines.resources
+C:\Users\User\Desktop\VisualStudioProjects\HealthGuru\obj\Debug\net7.0-windows\HealthGuru.AboutUs.resources
+C:\Users\User\Desktop\VisualStudioProjects\HealthGuru\obj\Debug\net7.0-windows\HealthGuru.Settings.resources

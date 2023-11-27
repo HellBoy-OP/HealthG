@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class ContactUs
+Partial Class AboutUs
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,18 +22,17 @@ Partial Class ContactUs
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim resources As ComponentModel.ComponentResourceManager = New ComponentModel.ComponentResourceManager(GetType(ContactUs))
         SuspendLayout()
         ' 
-        ' ContactUs
+        ' AboutUs
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
-        BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), Image)
+        BackColor = Color.FromArgb(CByte(100), CByte(210), CByte(120))
         BackgroundImageLayout = ImageLayout.Stretch
-        ClientSize = New Size(1020, 625)
+        ClientSize = New Size(960, 680)
         FormBorderStyle = FormBorderStyle.None
-        Name = "ContactUs"
+        Name = "AboutUs"
         Text = "ContactUs"
         ResumeLayout(False)
     End Sub
