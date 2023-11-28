@@ -61,10 +61,10 @@ Partial Class Home
         greetingLabel.BackColor = Color.Transparent
         greetingLabel.Font = New Font("Bahnschrift SemiBold", 30F, FontStyle.Bold, GraphicsUnit.Point)
         greetingLabel.ForeColor = Color.White
-        greetingLabel.Location = New Point(30, 15)
+        greetingLabel.Location = New Point(38, 19)
         greetingLabel.Margin = New Padding(2)
         greetingLabel.Name = "greetingLabel"
-        greetingLabel.Size = New Size(323, 62)
+        greetingLabel.Size = New Size(391, 74)
         greetingLabel.TabIndex = 0
         greetingLabel.Text = "Good Morning,"
         ' 
@@ -82,14 +82,14 @@ Partial Class Home
         Guna2CustomGradientPanel1.FillColor2 = Color.FromArgb(CByte(133), CByte(255), CByte(189))
         Guna2CustomGradientPanel1.FillColor3 = Color.FromArgb(CByte(224), CByte(195), CByte(252))
         Guna2CustomGradientPanel1.FillColor4 = Color.FromArgb(CByte(133), CByte(255), CByte(189))
-        Guna2CustomGradientPanel1.Location = New Point(63, 139)
+        Guna2CustomGradientPanel1.Location = New Point(79, 174)
         Guna2CustomGradientPanel1.Margin = New Padding(2)
         Guna2CustomGradientPanel1.Name = "Guna2CustomGradientPanel1"
         Guna2CustomGradientPanel1.ShadowDecoration.BorderRadius = 40
         Guna2CustomGradientPanel1.ShadowDecoration.CustomizableEdges = CustomizableEdges4
         Guna2CustomGradientPanel1.ShadowDecoration.Depth = 20
         Guna2CustomGradientPanel1.ShadowDecoration.Enabled = True
-        Guna2CustomGradientPanel1.Size = New Size(266, 240)
+        Guna2CustomGradientPanel1.Size = New Size(332, 300)
         Guna2CustomGradientPanel1.TabIndex = 5
         ' 
         ' Guna2GradientButton4
@@ -99,7 +99,7 @@ Partial Class Home
         Guna2GradientButton4.AutoRoundedCorners = True
         Guna2GradientButton4.BackColor = Color.Transparent
         Guna2GradientButton4.BorderColor = Color.FromArgb(CByte(169), CByte(201), CByte(255))
-        Guna2GradientButton4.BorderRadius = 22
+        Guna2GradientButton4.BorderRadius = 28
         Guna2GradientButton4.BorderThickness = 1
         Guna2GradientButton4.Cursor = Cursors.Hand
         CustomizableEdges1.TopLeft = False
@@ -114,7 +114,7 @@ Partial Class Home
         Guna2GradientButton4.Font = New Font("Bahnschrift SemiBold Condensed", 13.8F, FontStyle.Bold, GraphicsUnit.Point)
         Guna2GradientButton4.ForeColor = Color.White
         Guna2GradientButton4.GradientMode = Drawing2D.LinearGradientMode.BackwardDiagonal
-        Guna2GradientButton4.Location = New Point(67, 160)
+        Guna2GradientButton4.Location = New Point(84, 200)
         Guna2GradientButton4.Margin = New Padding(2)
         Guna2GradientButton4.Name = "Guna2GradientButton4"
         Guna2GradientButton4.ShadowDecoration.BorderRadius = 22
@@ -122,7 +122,7 @@ Partial Class Home
         Guna2GradientButton4.ShadowDecoration.Depth = 20
         Guna2GradientButton4.ShadowDecoration.Enabled = True
         Guna2GradientButton4.ShadowDecoration.Shadow = New Padding(0, 0, 6, 6)
-        Guna2GradientButton4.Size = New Size(132, 46)
+        Guna2GradientButton4.Size = New Size(165, 58)
         Guna2GradientButton4.TabIndex = 16
         Guna2GradientButton4.Text = "VIEW"
         ' 
@@ -131,10 +131,10 @@ Partial Class Home
         Guna2HtmlLabel6.AutoSize = False
         Guna2HtmlLabel6.BackColor = Color.Transparent
         Guna2HtmlLabel6.Font = New Font("Segoe UI Semibold", 18F, FontStyle.Bold, GraphicsUnit.Point)
-        Guna2HtmlLabel6.Location = New Point(28, 33)
+        Guna2HtmlLabel6.Location = New Point(35, 41)
         Guna2HtmlLabel6.Margin = New Padding(2)
         Guna2HtmlLabel6.Name = "Guna2HtmlLabel6"
-        Guna2HtmlLabel6.Size = New Size(210, 99)
+        Guna2HtmlLabel6.Size = New Size(262, 124)
         Guna2HtmlLabel6.TabIndex = 0
         Guna2HtmlLabel6.Text = "Your Appointments"
         Guna2HtmlLabel6.TextAlignment = ContentAlignment.MiddleCenter
@@ -150,7 +150,7 @@ Partial Class Home
         Guna2CustomGradientPanel2.FillColor2 = Color.FromArgb(CByte(217), CByte(175), CByte(217))
         Guna2CustomGradientPanel2.FillColor3 = Color.FromArgb(CByte(133), CByte(255), CByte(189))
         Guna2CustomGradientPanel2.FillColor4 = Color.FromArgb(CByte(217), CByte(175), CByte(217))
-        Guna2CustomGradientPanel2.Location = New Point(10, 457)
+        Guna2CustomGradientPanel2.Location = New Point(12, 571)
         Guna2CustomGradientPanel2.Margin = New Padding(2)
         Guna2CustomGradientPanel2.Name = "Guna2CustomGradientPanel2"
         Guna2CustomGradientPanel2.ShadowDecoration.BorderRadius = 30
@@ -160,7 +160,7 @@ Partial Class Home
         Guna2CustomGradientPanel2.ShadowDecoration.Depth = 20
         Guna2CustomGradientPanel2.ShadowDecoration.Enabled = True
         Guna2CustomGradientPanel2.ShadowDecoration.Shadow = New Padding(6)
-        Guna2CustomGradientPanel2.Size = New Size(939, 213)
+        Guna2CustomGradientPanel2.Size = New Size(1174, 266)
         Guna2CustomGradientPanel2.TabIndex = 6
         ' 
         ' Guna2CustomGradientPanel3
@@ -176,14 +176,14 @@ Partial Class Home
         Guna2CustomGradientPanel3.FillColor2 = Color.FromArgb(CByte(133), CByte(255), CByte(189))
         Guna2CustomGradientPanel3.FillColor3 = Color.FromArgb(CByte(224), CByte(195), CByte(252))
         Guna2CustomGradientPanel3.FillColor4 = Color.FromArgb(CByte(133), CByte(255), CByte(189))
-        Guna2CustomGradientPanel3.Location = New Point(366, 139)
+        Guna2CustomGradientPanel3.Location = New Point(458, 174)
         Guna2CustomGradientPanel3.Margin = New Padding(2)
         Guna2CustomGradientPanel3.Name = "Guna2CustomGradientPanel3"
         Guna2CustomGradientPanel3.ShadowDecoration.BorderRadius = 40
         Guna2CustomGradientPanel3.ShadowDecoration.CustomizableEdges = CustomizableEdges10
         Guna2CustomGradientPanel3.ShadowDecoration.Depth = 20
         Guna2CustomGradientPanel3.ShadowDecoration.Enabled = True
-        Guna2CustomGradientPanel3.Size = New Size(266, 240)
+        Guna2CustomGradientPanel3.Size = New Size(332, 300)
         Guna2CustomGradientPanel3.TabIndex = 7
         ' 
         ' Guna2GradientButton5
@@ -193,7 +193,7 @@ Partial Class Home
         Guna2GradientButton5.AutoRoundedCorners = True
         Guna2GradientButton5.BackColor = Color.Transparent
         Guna2GradientButton5.BorderColor = Color.FromArgb(CByte(169), CByte(201), CByte(255))
-        Guna2GradientButton5.BorderRadius = 22
+        Guna2GradientButton5.BorderRadius = 28
         Guna2GradientButton5.BorderThickness = 1
         Guna2GradientButton5.Cursor = Cursors.Hand
         CustomizableEdges7.TopLeft = False
@@ -207,7 +207,7 @@ Partial Class Home
         Guna2GradientButton5.FillColor2 = Color.FromArgb(CByte(116), CByte(235), CByte(213))
         Guna2GradientButton5.Font = New Font("Bahnschrift SemiBold Condensed", 13.8F, FontStyle.Bold, GraphicsUnit.Point)
         Guna2GradientButton5.ForeColor = Color.White
-        Guna2GradientButton5.Location = New Point(67, 160)
+        Guna2GradientButton5.Location = New Point(84, 200)
         Guna2GradientButton5.Margin = New Padding(2)
         Guna2GradientButton5.Name = "Guna2GradientButton5"
         Guna2GradientButton5.ShadowDecoration.BorderRadius = 22
@@ -215,7 +215,7 @@ Partial Class Home
         Guna2GradientButton5.ShadowDecoration.Depth = 20
         Guna2GradientButton5.ShadowDecoration.Enabled = True
         Guna2GradientButton5.ShadowDecoration.Shadow = New Padding(0, 0, 6, 6)
-        Guna2GradientButton5.Size = New Size(132, 46)
+        Guna2GradientButton5.Size = New Size(165, 58)
         Guna2GradientButton5.TabIndex = 17
         Guna2GradientButton5.Text = "VIEW"
         ' 
@@ -224,10 +224,10 @@ Partial Class Home
         Guna2HtmlLabel3.AutoSize = False
         Guna2HtmlLabel3.BackColor = Color.Transparent
         Guna2HtmlLabel3.Font = New Font("Segoe UI Semibold", 18F, FontStyle.Bold, GraphicsUnit.Point)
-        Guna2HtmlLabel3.Location = New Point(28, 33)
+        Guna2HtmlLabel3.Location = New Point(35, 41)
         Guna2HtmlLabel3.Margin = New Padding(2)
         Guna2HtmlLabel3.Name = "Guna2HtmlLabel3"
-        Guna2HtmlLabel3.Size = New Size(210, 99)
+        Guna2HtmlLabel3.Size = New Size(262, 124)
         Guna2HtmlLabel3.TabIndex = 17
         Guna2HtmlLabel3.Text = "Medicine Orders"
         Guna2HtmlLabel3.TextAlignment = ContentAlignment.MiddleCenter
@@ -236,10 +236,10 @@ Partial Class Home
         ' 
         Guna2Separator1.FillColor = Color.Black
         Guna2Separator1.FillThickness = 2
-        Guna2Separator1.Location = New Point(-3, 442)
+        Guna2Separator1.Location = New Point(-4, 552)
         Guna2Separator1.Margin = New Padding(2)
         Guna2Separator1.Name = "Guna2Separator1"
-        Guna2Separator1.Size = New Size(962, 8)
+        Guna2Separator1.Size = New Size(1202, 10)
         Guna2Separator1.TabIndex = 11
         ' 
         ' Guna2GradientButton1
@@ -248,7 +248,7 @@ Partial Class Home
         Guna2GradientButton1.AnimatedGIF = True
         Guna2GradientButton1.AutoRoundedCorners = True
         Guna2GradientButton1.BackColor = Color.Transparent
-        Guna2GradientButton1.BorderRadius = 29
+        Guna2GradientButton1.BorderRadius = 36
         Guna2GradientButton1.Cursor = Cursors.Hand
         Guna2GradientButton1.CustomizableEdges = CustomizableEdges11
         Guna2GradientButton1.DisabledState.BorderColor = Color.DarkGray
@@ -261,14 +261,14 @@ Partial Class Home
         Guna2GradientButton1.Font = New Font("Segoe UI Semibold", 14F, FontStyle.Bold, GraphicsUnit.Point)
         Guna2GradientButton1.ForeColor = Color.White
         Guna2GradientButton1.GradientMode = Drawing2D.LinearGradientMode.ForwardDiagonal
-        Guna2GradientButton1.Location = New Point(689, 139)
+        Guna2GradientButton1.Location = New Point(861, 174)
         Guna2GradientButton1.Margin = New Padding(2)
         Guna2GradientButton1.Name = "Guna2GradientButton1"
         Guna2GradientButton1.ShadowDecoration.BorderRadius = 30
         Guna2GradientButton1.ShadowDecoration.CustomizableEdges = CustomizableEdges12
         Guna2GradientButton1.ShadowDecoration.Depth = 20
         Guna2GradientButton1.ShadowDecoration.Enabled = True
-        Guna2GradientButton1.Size = New Size(232, 60)
+        Guna2GradientButton1.Size = New Size(290, 75)
         Guna2GradientButton1.TabIndex = 12
         Guna2GradientButton1.Text = "Breath Exercise"
         ' 
@@ -278,7 +278,7 @@ Partial Class Home
         Guna2GradientButton2.AnimatedGIF = True
         Guna2GradientButton2.AutoRoundedCorners = True
         Guna2GradientButton2.BackColor = Color.Transparent
-        Guna2GradientButton2.BorderRadius = 29
+        Guna2GradientButton2.BorderRadius = 36
         Guna2GradientButton2.Cursor = Cursors.Hand
         Guna2GradientButton2.CustomizableEdges = CustomizableEdges13
         Guna2GradientButton2.DisabledState.BorderColor = Color.DarkGray
@@ -291,14 +291,14 @@ Partial Class Home
         Guna2GradientButton2.Font = New Font("Segoe UI Semibold", 14F, FontStyle.Bold, GraphicsUnit.Point)
         Guna2GradientButton2.ForeColor = Color.White
         Guna2GradientButton2.GradientMode = Drawing2D.LinearGradientMode.ForwardDiagonal
-        Guna2GradientButton2.Location = New Point(689, 319)
+        Guna2GradientButton2.Location = New Point(861, 399)
         Guna2GradientButton2.Margin = New Padding(2)
         Guna2GradientButton2.Name = "Guna2GradientButton2"
         Guna2GradientButton2.ShadowDecoration.BorderRadius = 30
         Guna2GradientButton2.ShadowDecoration.CustomizableEdges = CustomizableEdges14
         Guna2GradientButton2.ShadowDecoration.Depth = 20
         Guna2GradientButton2.ShadowDecoration.Enabled = True
-        Guna2GradientButton2.Size = New Size(232, 60)
+        Guna2GradientButton2.Size = New Size(290, 75)
         Guna2GradientButton2.TabIndex = 13
         Guna2GradientButton2.Text = "Your Prescriptions"
         ' 
@@ -308,7 +308,7 @@ Partial Class Home
         Guna2GradientButton3.AnimatedGIF = True
         Guna2GradientButton3.AutoRoundedCorners = True
         Guna2GradientButton3.BackColor = Color.Transparent
-        Guna2GradientButton3.BorderRadius = 29
+        Guna2GradientButton3.BorderRadius = 36
         Guna2GradientButton3.Cursor = Cursors.Hand
         Guna2GradientButton3.CustomizableEdges = CustomizableEdges15
         Guna2GradientButton3.DisabledState.BorderColor = Color.DarkGray
@@ -321,14 +321,14 @@ Partial Class Home
         Guna2GradientButton3.Font = New Font("Segoe UI Semibold", 14F, FontStyle.Bold, GraphicsUnit.Point)
         Guna2GradientButton3.ForeColor = Color.White
         Guna2GradientButton3.GradientMode = Drawing2D.LinearGradientMode.ForwardDiagonal
-        Guna2GradientButton3.Location = New Point(689, 229)
+        Guna2GradientButton3.Location = New Point(861, 286)
         Guna2GradientButton3.Margin = New Padding(2)
         Guna2GradientButton3.Name = "Guna2GradientButton3"
         Guna2GradientButton3.ShadowDecoration.BorderRadius = 30
         Guna2GradientButton3.ShadowDecoration.CustomizableEdges = CustomizableEdges16
         Guna2GradientButton3.ShadowDecoration.Depth = 20
         Guna2GradientButton3.ShadowDecoration.Enabled = True
-        Guna2GradientButton3.Size = New Size(232, 60)
+        Guna2GradientButton3.Size = New Size(290, 75)
         Guna2GradientButton3.TabIndex = 14
         Guna2GradientButton3.Text = "Diet Planning"
         ' 
@@ -336,10 +336,10 @@ Partial Class Home
         ' 
         Guna2Separator2.FillColor = Color.FromArgb(CByte(190), CByte(200), CByte(210))
         Guna2Separator2.FillThickness = 2
-        Guna2Separator2.Location = New Point(-1, 77)
+        Guna2Separator2.Location = New Point(-1, 96)
         Guna2Separator2.Margin = New Padding(2)
         Guna2Separator2.Name = "Guna2Separator2"
-        Guna2Separator2.Size = New Size(962, 24)
+        Guna2Separator2.Size = New Size(1202, 30)
         Guna2Separator2.TabIndex = 16
         ' 
         ' datetime_label
@@ -347,18 +347,19 @@ Partial Class Home
         datetime_label.AutoEllipsis = True
         datetime_label.AutoSize = True
         datetime_label.ForeColor = Color.Black
-        datetime_label.Location = New Point(819, 15)
+        datetime_label.Location = New Point(1024, 19)
+        datetime_label.Margin = New Padding(4, 0, 4, 0)
         datetime_label.Name = "datetime_label"
-        datetime_label.Size = New Size(53, 20)
+        datetime_label.Size = New Size(63, 25)
         datetime_label.TabIndex = 17
         datetime_label.Text = "Label1"
         ' 
         ' Home
         ' 
-        AutoScaleDimensions = New SizeF(8F, 20F)
+        AutoScaleDimensions = New SizeF(10F, 25F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(100), CByte(210), CByte(120))
-        ClientSize = New Size(960, 680)
+        ClientSize = New Size(1200, 850)
         Controls.Add(datetime_label)
         Controls.Add(Guna2Separator2)
         Controls.Add(greetingLabel)
@@ -370,6 +371,7 @@ Partial Class Home
         Controls.Add(Guna2CustomGradientPanel2)
         Controls.Add(Guna2CustomGradientPanel1)
         FormBorderStyle = FormBorderStyle.None
+        Margin = New Padding(4, 4, 4, 4)
         Name = "Home"
         Text = "Home"
         Guna2CustomGradientPanel1.ResumeLayout(False)
