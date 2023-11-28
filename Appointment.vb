@@ -5,6 +5,14 @@ Public Class Appointment
 
     End Sub
 
+    Private Sub Guna2PictureBox1_Click(sender As Object, e As EventArgs) Handles Guna2PictureBox1.Click
+
+    End Sub
+
+    Private Sub Guna2HtmlLabel1_Click(sender As Object, e As EventArgs) Handles Guna2HtmlLabel1.Click
+
+    End Sub
+
 
 
 
