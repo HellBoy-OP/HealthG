@@ -4,19 +4,22 @@ Public Class Dashboard
     Private is_clicked As New Dictionary(Of Object, Boolean)
 
     Private Sub Dashboard_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        is_clicked.Add(DashboardButton, True)
+        is_clicked.Add(DashboardButton, False)
         is_clicked.Add(MedicinesButton, False)
         is_clicked.Add(AppointmentButton, False)
         is_clicked.Add(AboutUsButton, False)
         is_clicked.Add(SettingsButton, False)
+        UpdateClickedData(DashboardButton)
         Switch_Panel(Guna2Panel1, Home)
     End Sub
 
     Private Sub UpdateClickedData(button As Object)
         is_clicked(button) = True
+        button.BorderThickness = 2
         For Each clicked In is_clicked.Keys
             If clicked IsNot button Then
-                is_clicked(button) = False
+                is_clicked(clicked) = False
+                clicked.BorderThickness = 0
             End If
         Next
     End Sub
@@ -36,28 +39,28 @@ Public Class Dashboard
 
     Private Sub AppointmentButton_Click(sender As Object, e As EventArgs) Handles AppointmentButton.Click
         ' Handles Appointment button
-        Switch_Panel(Guna2Panel1, Appointment)
         UpdateClickedData(AppointmentButton)
+        Switch_Panel(Guna2Panel1, Appointment)
     End Sub
 
     Private Sub MedicinesButton_Click(sender As Object, e As EventArgs) Handles MedicinesButton.Click
-        Switch_Panel(Guna2Panel1, Medicines)
         UpdateClickedData(MedicinesButton)
+        Switch_Panel(Guna2Panel1, Medicines)
     End Sub
 
     Private Sub DashboardButton_Click(sender As Object, e As EventArgs) Handles DashboardButton.Click
-        Switch_Panel(Guna2Panel1, Home)
         UpdateClickedData(DashboardButton)
+        Switch_Panel(Guna2Panel1, Home)
     End Sub
 
     Private Sub AboutUsButton_Click(sender As Object, e As EventArgs) Handles AboutUsButton.Click
-        Switch_Panel(Guna2Panel1, AboutUs)
         UpdateClickedData(AboutUsButton)
+        Switch_Panel(Guna2Panel1, AboutUs)
     End Sub
 
     Private Sub SettingsButton_Click(sender As Object, e As EventArgs) Handles SettingsButton.Click
-        Switch_Panel(Guna2Panel1, Settings)
         UpdateClickedData(SettingsButton)
+        Switch_Panel(Guna2Panel1, Settings)
     End Sub
 
 End Class

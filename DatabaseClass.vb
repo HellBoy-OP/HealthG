@@ -54,4 +54,20 @@ Public Class DatabaseClass
         Return Await userCollection.Find(New BsonDocument(key, value)).FirstOrDefaultAsync()
     End Function
 
+    Public Async Sub InsertDoctor(fullname As String, basicInfo As String, Clinics As List(Of String))
+        Dim doctorDocument = New BsonDocument From {
+            {"fullname", fullname},
+            {"basicInfo", basicInfo},
+            {"clinics", ""}
+        }
+        Await doctorCollection.InsertOneAsync(doctorDocument)
+    End Sub
+
+    Public Async Function GetDoctors_ByName(name As String) As Task(Of BsonDocument)
+        Return Await doctorCollection.FindAsync(New BsonDocument("fullname", name))
+    End Function
+
+    Public Async Function GetDoctors_ByClinic(clinic As String) As Task(Of BsonDocument)
+        Return ""
+    End Function
 End Class
