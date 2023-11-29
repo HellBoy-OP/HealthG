@@ -22,8 +22,9 @@ Partial Class Dashboard
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        components = New ComponentModel.Container()
+        Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -36,8 +37,10 @@ Partial Class Dashboard
         Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges17 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges18 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         PictureBox1 = New PictureBox()
         Label3 = New Label()
         Label1 = New Label()
@@ -57,10 +60,13 @@ Partial Class Dashboard
         AboutUsButton = New Guna.UI2.WinForms.Guna2GradientButton()
         AppointmentButton = New Guna.UI2.WinForms.Guna2GradientButton()
         DashboardButton = New Guna.UI2.WinForms.Guna2GradientButton()
+        Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
         Guna2vSeparator1 = New Guna.UI2.WinForms.Guna2VSeparator()
         Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
+        Guna2AnimateWindow1 = New Guna.UI2.WinForms.Guna2AnimateWindow(components)
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         Guna2CustomGradientPanel1.SuspendLayout()
+        CType(Guna2PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' PictureBox1
@@ -198,9 +204,10 @@ Partial Class Dashboard
         Guna2CustomGradientPanel1.Controls.Add(AboutUsButton)
         Guna2CustomGradientPanel1.Controls.Add(AppointmentButton)
         Guna2CustomGradientPanel1.Controls.Add(DashboardButton)
-        CustomizableEdges13.BottomLeft = False
-        CustomizableEdges13.TopLeft = False
-        Guna2CustomGradientPanel1.CustomizableEdges = CustomizableEdges13
+        Guna2CustomGradientPanel1.Controls.Add(Guna2PictureBox1)
+        CustomizableEdges15.BottomLeft = False
+        CustomizableEdges15.TopLeft = False
+        Guna2CustomGradientPanel1.CustomizableEdges = CustomizableEdges15
         Guna2CustomGradientPanel1.Dock = DockStyle.Left
         Guna2CustomGradientPanel1.FillColor = Color.FromArgb(CByte(50), CByte(250), CByte(150))
         Guna2CustomGradientPanel1.FillColor2 = Color.FromArgb(CByte(60), CByte(200), CByte(190))
@@ -210,9 +217,9 @@ Partial Class Dashboard
         Guna2CustomGradientPanel1.Name = "Guna2CustomGradientPanel1"
         Guna2CustomGradientPanel1.ShadowDecoration.BorderRadius = 30
         Guna2CustomGradientPanel1.ShadowDecoration.Color = Color.FromArgb(CByte(20), CByte(100), CByte(30))
-        CustomizableEdges14.BottomLeft = False
-        CustomizableEdges14.TopLeft = False
-        Guna2CustomGradientPanel1.ShadowDecoration.CustomizableEdges = CustomizableEdges14
+        CustomizableEdges16.BottomLeft = False
+        CustomizableEdges16.TopLeft = False
+        Guna2CustomGradientPanel1.ShadowDecoration.CustomizableEdges = CustomizableEdges16
         Guna2CustomGradientPanel1.ShadowDecoration.Depth = 50
         Guna2CustomGradientPanel1.ShadowDecoration.Enabled = True
         Guna2CustomGradientPanel1.ShadowDecoration.Shadow = New Padding(5, 5, 8, 8)
@@ -453,6 +460,20 @@ Partial Class Dashboard
         DashboardButton.TextRenderingHint = Drawing.Text.TextRenderingHint.SingleBitPerPixelGridFit
         DashboardButton.UseTransparentBackground = True
         ' 
+        ' Guna2PictureBox1
+        ' 
+        Guna2PictureBox1.CustomizableEdges = CustomizableEdges13
+        Guna2PictureBox1.Image = My.Resources.Resources.logo1
+        Guna2PictureBox1.ImageRotate = 0F
+        Guna2PictureBox1.Location = New Point(10, -3)
+        Guna2PictureBox1.Name = "Guna2PictureBox1"
+        Guna2PictureBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges14
+        Guna2PictureBox1.Size = New Size(258, 191)
+        Guna2PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
+        Guna2PictureBox1.TabIndex = 20
+        Guna2PictureBox1.TabStop = False
+        Guna2PictureBox1.UseTransparentBackground = True
+        ' 
         ' Guna2vSeparator1
         ' 
         Guna2vSeparator1.BackColor = Color.Transparent
@@ -468,11 +489,11 @@ Partial Class Dashboard
         ' Guna2Panel1
         ' 
         Guna2Panel1.BackColor = Color.Transparent
-        Guna2Panel1.CustomizableEdges = CustomizableEdges15
+        Guna2Panel1.CustomizableEdges = CustomizableEdges17
         Guna2Panel1.FillColor = Color.Transparent
         Guna2Panel1.Location = New Point(301, 12)
         Guna2Panel1.Name = "Guna2Panel1"
-        Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges16
+        Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges18
         Guna2Panel1.Size = New Size(960, 680)
         Guna2Panel1.TabIndex = 14
         Guna2Panel1.UseTransparentBackground = True
@@ -492,6 +513,7 @@ Partial Class Dashboard
         Text = "Dashboard"
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         Guna2CustomGradientPanel1.ResumeLayout(False)
+        CType(Guna2PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
     End Sub
 
@@ -516,4 +538,6 @@ Partial Class Dashboard
     Friend WithEvents LogoutButton As Guna.UI2.WinForms.Guna2GradientButton
     Friend WithEvents Guna2Panel1 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents MedicinesButton As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents Guna2AnimateWindow1 As Guna.UI2.WinForms.Guna2AnimateWindow
+    Friend WithEvents Guna2PictureBox1 As Guna.UI2.WinForms.Guna2PictureBox
 End Class

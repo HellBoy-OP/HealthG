@@ -22,7 +22,9 @@ Partial Class AboutUs
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        components = New ComponentModel.Container()
         PictureBox1 = New PictureBox()
+        Guna2AnimateWindow1 = New Guna.UI2.WinForms.Guna2AnimateWindow(components)
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
@@ -54,4 +56,5 @@ Partial Class AboutUs
     End Sub
 
     Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents Guna2AnimateWindow1 As Guna.UI2.WinForms.Guna2AnimateWindow
 End Class

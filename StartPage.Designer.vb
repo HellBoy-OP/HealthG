@@ -22,12 +22,14 @@ Partial Class StartPage
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        components = New ComponentModel.Container()
         Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Guna2GradientPanel1 = New Guna.UI2.WinForms.Guna2GradientPanel()
         PictureBox2 = New PictureBox()
         PictureBox1 = New PictureBox()
         PictureBox5 = New PictureBox()
+        Guna2AnimateWindow1 = New Guna.UI2.WinForms.Guna2AnimateWindow(components)
         CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox5, ComponentModel.ISupportInitialize).BeginInit()
@@ -113,4 +115,5 @@ Partial Class StartPage
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents PictureBox5 As PictureBox
+    Friend WithEvents Guna2AnimateWindow1 As Guna.UI2.WinForms.Guna2AnimateWindow
 End Class

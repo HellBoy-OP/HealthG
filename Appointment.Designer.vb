@@ -22,6 +22,7 @@ Partial Class Appointment
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        components = New ComponentModel.Container()
         Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -46,6 +47,7 @@ Partial Class Appointment
         Guna2ComboBox3 = New Guna.UI2.WinForms.Guna2ComboBox()
         Guna2GradientButton2 = New Guna.UI2.WinForms.Guna2GradientButton()
         Guna2PictureBox3 = New Guna.UI2.WinForms.Guna2PictureBox()
+        Guna2AnimateWindow1 = New Guna.UI2.WinForms.Guna2AnimateWindow(components)
         CType(Guna2PictureBox3, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
@@ -319,4 +321,5 @@ Partial Class Appointment
     Friend WithEvents Guna2ComboBox3 As Guna.UI2.WinForms.Guna2ComboBox
     Friend WithEvents Guna2GradientButton2 As Guna.UI2.WinForms.Guna2GradientButton
     Friend WithEvents Guna2PictureBox3 As Guna.UI2.WinForms.Guna2PictureBox
+    Friend WithEvents Guna2AnimateWindow1 As Guna.UI2.WinForms.Guna2AnimateWindow
 End Class

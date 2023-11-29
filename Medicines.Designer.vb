@@ -22,6 +22,7 @@ Partial Class Medicines
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        components = New ComponentModel.Container()
         Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -98,6 +99,7 @@ Partial Class Medicines
         Label2 = New Label()
         Guna2GradientButton5 = New Guna.UI2.WinForms.Guna2GradientButton()
         PictureBox7 = New PictureBox()
+        Guna2AnimateWindow1 = New Guna.UI2.WinForms.Guna2AnimateWindow(components)
         Guna2GradientPanel1.SuspendLayout()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
@@ -835,4 +837,5 @@ Partial Class Medicines
     Friend WithEvents Label3 As Label
     Friend WithEvents Guna2GradientButton6 As Guna.UI2.WinForms.Guna2GradientButton
     Friend WithEvents PictureBox8 As PictureBox
+    Friend WithEvents Guna2AnimateWindow1 As Guna.UI2.WinForms.Guna2AnimateWindow
 End Class
